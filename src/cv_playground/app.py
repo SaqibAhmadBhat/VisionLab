@@ -30,17 +30,17 @@ def render_about():
     st.title("About VisionLab")
     st.markdown("""
     **VisionLab** is an interactive, professional-grade computer vision studio designed for exploring classical image and video processing algorithms in real-time.
-    
+
     ### Technologies
     - **Language**: Python 3.11
     - **Framework**: Streamlit
     - **Core Engine**: OpenCV, NumPy, Pillow, Matplotlib
     - **AI Engine (Optional)**: PyTorch & Torchvision
-    
+
     ### Author
     **Saqib Ahmad Bhat**
     - GitHub: [@SaqibAhmadBhat](https://github.com/SaqibAhmadBhat)
-    
+
     *Note: This application is independently developed. It is maintained within the `Computer-Vision-main` repository, which contains separate original educational materials.*
     """)
 
@@ -62,7 +62,7 @@ def render_comparison(original: np.ndarray, processed: np.ndarray, label: str):
         st.subheader("Processed Image")
         channels = "GRAY" if len(processed.shape) == 2 else "RGB"
         st.image(processed, use_container_width=True, channels=channels)
-        
+
         try:
             download_data = utils.encode_image_for_download(processed, "jpg")
             st.download_button(
@@ -77,7 +77,7 @@ def render_comparison(original: np.ndarray, processed: np.ndarray, label: str):
 def main():
     st.sidebar.title("VisionLab 👁️")
     st.sidebar.markdown("Interactive Computer Vision Studio")
-    
+
     menu = [
         "🖼️ Image Processing",
         "🔍 Feature & Shape Detection",
@@ -88,7 +88,7 @@ def main():
         "ℹ️ About"
     ]
     choice = st.sidebar.selectbox("Navigation", menu)
-    
+
     if choice == "ℹ️ About":
         render_about()
         return
@@ -119,27 +119,27 @@ def main():
     if choice not in ["🎥 Video Lab"]:
         st.title(choice.split(" ", 1)[1])
         uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png", "webp"])
-        
+
         if uploaded_file is None:
             st.info("Please upload an image to get started.")
             return
-            
+
         try:
             img = utils.load_image(uploaded_file)
             st.expander("Image Metadata").write(utils.get_image_info(img))
-            
+
             result = img
             operation_name = "original"
-            
+
             if choice == "🖼️ Image Processing":
                 op = st.sidebar.selectbox("Operation", [
-                    "Original", "Grayscale", "Gaussian Blur", "Median Blur", 
+                    "Original", "Grayscale", "Gaussian Blur", "Median Blur",
                     "Bilateral Filter", "Canny Edge", "Sobel Edge", "Laplacian Edge",
                     "Binary Threshold", "Adaptive Threshold", "Otsu Threshold",
                     "Morphological Operations", "Brightness & Contrast", "Sharpening", "Rotate"
                 ])
                 operation_name = op
-                
+
                 if op == "Grayscale":
                     result = image_processing.apply_grayscale(img)
                 elif op == "Gaussian Blur":
@@ -185,13 +185,13 @@ def main():
                 elif op == "Rotate":
                     angle = st.sidebar.slider("Angle", -180.0, 180.0, 0.0)
                     result = image_processing.rotate_image(img, angle)
-                    
+
             elif choice == "🔍 Feature & Shape Detection":
                 op = st.sidebar.selectbox("Detector", [
                     "Hough Lines", "Hough Circles", "Basic Shape Detection"
                 ])
                 operation_name = op
-                
+
                 if op == "Hough Lines":
                     t = st.sidebar.slider("Threshold", 50, 300, 150)
                     ml = st.sidebar.slider("Min Line Length", 10, 200, 50)
@@ -206,7 +206,7 @@ def main():
                 elif op == "Basic Shape Detection":
                     tv = st.sidebar.slider("Threshold Value", 0, 255, 127)
                     result = detection.detect_shapes(img, tv)
-                    
+
             elif choice == "🤖 Object Detection":
                 st.markdown("Uses OpenCV Haar Cascades for lightweight, zero-download face detection.")
                 scale = st.sidebar.slider("Scale Factor", 1.01, 1.5, 1.1)
@@ -214,7 +214,7 @@ def main():
                 result, count = detection.detect_faces(img, scale, min_n)
                 operation_name = "faces"
                 st.success(f"Detected {count} face(s).")
-                
+
             elif choice == "🧠 AI Vision":
                 st.markdown("Uses PyTorch and torchvision MobileNetV3 for Image Classification.")
                 if st.button("Run AI Intelligence Analysis"):
@@ -230,20 +230,20 @@ def main():
 
             # Display comparison
             render_comparison(img, result, operation_name)
-            
+
             # Histogram section
             if st.checkbox("Show Image Histogram"):
                 hist_img = visualization.generate_histogram(result)
                 st.image(hist_img, caption="Histogram of Processed Image", use_container_width=True)
-                
+
         except Exception as e:
             st.error(f"Error processing image: {str(e)}")
 
     # Video Module
     if choice == "🎥 Video Lab":
         st.title("Video Lab")
-        st.markdown("Extract and process frames from a video. For performance, we preview up to 10 frames evenly spaced.")
-        
+        st.markdown("Process videos frame-by-frame and download the result.")
+
         video_file = st.file_uploader("Upload a Video", type=["mp4", "avi", "mov"])
         if video_file:
             import tempfile
@@ -253,27 +253,55 @@ def main():
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".mp4") as tmp:
                     tmp.write(video_file.read())
                     tmp_path = tmp.name
-                    
+
                 op = st.sidebar.selectbox("Frame Operation", ["None", "Grayscale", "Canny Edge"])
-                
-                with st.spinner("Extracting frames..."):
-                    frames = video_processing.process_video_preview(tmp_path, max_frames=6)
-                    
-                if not frames:
-                    st.error("Failed to extract frames. Codec may be unsupported.")
-                else:
-                    st.success(f"Extracted {len(frames)} frames for preview.")
-                    cols = st.columns(3)
-                    for i, frame in enumerate(frames):
-                        processed = frame
+
+                if st.button("Generate Preview (First 6 frames)"):
+                    with st.spinner("Extracting frames..."):
+                        frames = video_processing.process_video_preview(tmp_path, max_frames=6)
+
+                    if not frames:
+                        st.error("Failed to extract frames. Codec may be unsupported.")
+                    else:
+                        st.success(f"Extracted {len(frames)} frames for preview.")
+                        cols = st.columns(3)
+                        for i, frame in enumerate(frames):
+                            processed = frame
+                            if op == "Grayscale":
+                                processed = image_processing.apply_grayscale(frame)
+                            elif op == "Canny Edge":
+                                processed = image_processing.apply_canny_edge(frame)
+
+                            channels = "GRAY" if len(processed.shape) == 2 else "RGB"
+                            cols[i % 3].image(processed, channels=channels, caption=f"Frame Preview {i+1}", use_container_width=True)
+
+                if st.button("Process & Download Full Video"):
+                    with st.spinner("Processing entire video... This may take a few minutes depending on length."):
+                        out_path = tempfile.mktemp(suffix=".mp4")
+
+                        op_func = None
                         if op == "Grayscale":
-                            processed = image_processing.apply_grayscale(frame)
+                            op_func = image_processing.apply_grayscale
                         elif op == "Canny Edge":
-                            processed = image_processing.apply_canny_edge(frame)
-                            
-                        channels = "GRAY" if len(processed.shape) == 2 else "RGB"
-                        cols[i % 3].image(processed, channels=channels, caption=f"Frame Preview {i+1}", use_container_width=True)
-                
+                            op_func = image_processing.apply_canny_edge
+
+                        success = video_processing.process_full_video(tmp_path, out_path, op_func)
+
+                        if success and os.path.exists(out_path):
+                            with open(out_path, "rb") as f:
+                                video_bytes = f.read()
+
+                            st.success("Video processing complete!")
+                            st.download_button(
+                                label="📥 Download Processed Video (.mp4)",
+                                data=video_bytes,
+                                file_name=f"visionlab_processed_{op.lower().replace(' ', '_')}.mp4",
+                                mime="video/mp4"
+                            )
+                            os.unlink(out_path)
+                        else:
+                            st.error("Failed to process full video.")
+
                 os.unlink(tmp_path)
             except Exception as e:
                 st.error(f"Video processing error: {e}")
