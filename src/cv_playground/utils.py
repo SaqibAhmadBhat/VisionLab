@@ -9,13 +9,13 @@ def load_image(file_buffer) -> np.ndarray:
     try:
         img_bytes = file_buffer.read()
         file_buffer.seek(0) # Reset pointer for potential reuse
-        
+
         # PIL handles many formats safely
         img = Image.open(io.BytesIO(img_bytes))
         # Convert to RGB if necessary (e.g. RGBA)
         if img.mode != 'RGB':
             img = img.convert('RGB')
-        
+
         return np.array(img)
     except Exception as e:
         raise ValueError(f"Failed to load image: {str(e)}")
@@ -24,7 +24,7 @@ def get_image_info(image: np.ndarray) -> dict:
     """Return basic metadata about an image array."""
     if image is None or len(image.shape) < 2:
         return {}
-    
+
     h, w = image.shape[:2]
     c = image.shape[2] if len(image.shape) == 3 else 1
     return {
@@ -42,7 +42,7 @@ def encode_image_for_download(image: np.ndarray, ext: str = "jpg") -> bytes:
             pil_img = Image.fromarray(image)
         else:
             pil_img = Image.fromarray(image, 'RGB')
-            
+
         buf = io.BytesIO()
         format_map = {"jpg": "JPEG", "jpeg": "JPEG", "png": "PNG"}
         pil_img.save(buf, format=format_map.get(ext.lower(), "JPEG"))

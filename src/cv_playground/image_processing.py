@@ -53,7 +53,7 @@ def apply_adaptive_threshold(image: np.ndarray, block_size: int = 11, c: int = 2
     """Apply adaptive thresholding."""
     gray = ensure_grayscale(image)
     b = max(3, block_size | 1)
-    return cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+    return cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
                                  cv2.THRESH_BINARY, b, c)
 
 def apply_otsu_threshold(image: np.ndarray) -> np.ndarray:
@@ -66,22 +66,22 @@ def apply_morphology(image: np.ndarray, operation: str = 'erosion', kernel_size:
     """Apply morphological operations (erosion, dilation, opening, closing)."""
     k = max(1, kernel_size)
     kernel = np.ones((k, k), np.uint8)
-    
+
     op_map = {
         'erosion': cv2.erode,
         'dilation': cv2.dilate,
     }
-    
+
     if operation in op_map:
         return op_map[operation](image, kernel, iterations=iterations)
-        
+
     cv2_ops = {
         'opening': cv2.MORPH_OPEN,
         'closing': cv2.MORPH_CLOSE,
     }
     if operation in cv2_ops:
         return cv2.morphologyEx(image, cv2_ops[operation], kernel, iterations=iterations)
-        
+
     return image
 
 def resize_image(image: np.ndarray, width: int, height: int) -> np.ndarray:
@@ -107,15 +107,15 @@ def adjust_brightness_contrast(image: np.ndarray, brightness: int = 0, contrast:
         alpha_c = f
         gamma_c = 127 * (1 - f)
         image = cv2.addWeighted(image, alpha_c, image, 0, gamma_c)
-        
+
     if brightness != 0:
         image = cv2.addWeighted(image, 1, image, 0, brightness)
-        
+
     return image
 
 def apply_sharpening(image: np.ndarray) -> np.ndarray:
     """Apply a standard sharpening filter."""
-    kernel = np.array([[-1,-1,-1], 
+    kernel = np.array([[-1,-1,-1],
                        [-1, 9,-1],
                        [-1,-1,-1]])
     return cv2.filter2D(image, -1, kernel)
