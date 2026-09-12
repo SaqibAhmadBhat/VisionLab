@@ -1,0 +1,714 @@
+ ## **👁️ Computer Vision with Python & OpenCV — The Ultimate A‑to‑Z Learning Repository**
+ 🚀 Explore the vast landscape of computer vision through our comprehensive repository, It include resource about deep learning for vision, image processing tutorials, OpenCV projects, YOLO object detection, CNN tutorials, vision transformers,  serving as your A-Z guide to this captivating field. Whether you're delving into image processing, object detection, or deep learning, you'll find a treasure trove of resources here to deepen your understanding and hone your skills.
+
+ ## If you found this helpful, Please Start it to help other discover these tutorials ⭐
+
+## Quick Start Checklist with Links
+
+- Subscribe to [Computer Vision Concepts Playlist](https://www.youtube.com/playlist?list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV) 
+- Enroll in Complete Machine Learning Courese [Computer Vision Course!](https://coursesteach.com/course/view.php?id=133) to Solve quiz and find extr resources.
+- Subscribe to [Convulaton Nerual Network Playlist](https://www.youtube.com/playlist?list=PLLC7bmONapvAEwgRn8WA50H_sMTBgcqn7) 
+     
+computer vision course,  computer vision with Python, AI in image analysis, edge detection, computer vision GitHub repository, free computer vision resources
+
+<!-- Social card for GitHub -->
+<meta property="og:image" content="https://raw.githubusercontent.com/hussain0048/Computer-Vision-/main/CoursesTeach%20(2).png">
+<meta property="og:title" content="Computer Vision Course - Learn with Code, Notebooks, and Projects">
+<meta property="og:description" content="An end-to-end guide to Computer Vision with Python, OpenCV, YOLO, and Deep Learning — curated for learners and contributors.">
+
+## 🙌 Become a Sponsor
+
+You can support this project by becoming a sponsor on mm Supporting this project helps keep educational AI content free**[GitHub Sponsors](https://github.com/sponsors/dr-mushtaq)** or via **bank transfer** — please contact me at 📧 [mushtaqmsit@gmail.com](mailto:mushtaqmsit@gmail.com).
+
+
+## **💡 How to Get Involved in the Computer Vision Project?**
+
+🚀 **Fork & Star the Repo**:Show your support and stay updated — fork the repository and give it a ⭐ on GitHub!
+
+👩‍💻 **Dive Into Structured Lessons**: Start learning with well-organized, beginner-to-advanced tutorials curated to help you build real skills step by step.
+
+🛠️ **Contribute to Code & Content**:Enhance existing blogs, refine code, fix bugs, or write new tutorials on exciting computer vision topics.
+
+🧪 **Experiment & Innovate**:Use the provided codebase as your playground — tweak, test, and explore to discover something new.
+
+🤝 **Collaborate with the Community**:Join discussions, review PRs, and team up with fellow developers, students, and AI enthusiasts around the world.
+
+📌 **Share Your Knowledge**:Submit your own implementations, mini-projects, or useful resources like blogs, website, videos, GitHub repos, and research papers etc.
+
+Also please subscribe to my [youtube channel!](https://www.youtube.com/@coursesteach-mv5si)
+
+## 🛠️ We're Actively Looking for Contributors To:
+- Add new tutorials (Python, OpenCV, YOLO, etc.)
+- Convert lessons into interactive Colab notebooks
+- Fix broken links and typos
+- Translate lessons into other languages (e.g., Urdu, Spanish)
+- Add quizzes or solutions
+- improve the current blog
+- suggestion other important website ,repistory,youtube Channel etc
+- Create blog from next topic in our jounrney 
+- Suggest new topics or Video ,Course
+- Create Video from blog
+
+## 🤝 How to Contribute
+
+1. **Fork** this repository.
+2. Choose a contribution type:
+   - 📚 Add tutorials (Python, OpenCV, YOLO, AI, ML, etc.)
+   - 📓 Create or improve Google Colab / Jupyter notebooks
+   - 🌍 Translate content into other languages (e.g., Urdu, Spanish, etc.)
+   - ❓ Add quizzes, exercises, or solutions
+   - 📝 Improve blogs, documentation, links, and examples
+   - 🎥 Create video scripts or educational videos
+   - 🔗 Suggest useful websites, repositories, courses, datasets, or YouTube channels
+   - 🚀 Propose new topics, projects, roadmaps, or courses
+3. Include the following details:
+   - **Title / Name** (with link if applicable)
+   - **Short Description** (15–30 words)
+   - **Category**
+   - **Tags** (e.g., Python, OpenCV, YOLO, AI, Beginner, Free)
+
+4. Create a **Pull Request (PR)** with a clear title and description of your changes.
+---
+⭐ Thank you for helping improve this learning platform!
+
+## 🎓 **Enrolled Courses**
+
+Please enrolled in the following courses to strengthen knowledge and practical skills in Computer Vision. These courses are designed to provide both theoretical understanding and hands-on experience with real-world Computer Vision applications.
+
+🔗 [**Basic of Computer Vision**l](https://coursesteach.com/course/view.php?id=133)
+
+Star this repo if you find it useful ⭐
+
+## **🌍 Join Our Community**
+
+🔗 [**YouTube Channe**l](https://www.youtube.com/@coursesteach-mv5si/videos)
+
+🔗 [**LinkedIn**](https://www.linkedin.com/company/90909828/admin/page-posts/published/)
+
+🔗 [**Enbroll in Complate Computer Vision Course**](https://coursesteach.com/course/view.php?id=133)
+
+🔗 [**How to Design Course page**](https://stanford-cs336.github.io/spring2025/)
+
+If link is not working then you need to create account in couresteach.com then you click on course
+
+
+📬 Need Help? Connect with us on [**WhatsApp**](https://chat.whatsapp.com/L9URPRThBEa7GFl0mlwggg)
+
+<details> 
+<summary> <h2>📕Course Title - 👁️ Course Title: Basics of Computer Vision </h2> </summary>
+ 
+#### Notes
+- **[Georgia Tech OMSCS](https://courses.learntosolveit.com/gatech/)** - FREE
+ 
+## 👁️ Chapter1: - **Foundations of Computer Vision**
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[blog](https://dev.to/mushtaq_hussain_6678b0b0e/introduction-of-computer-vision-1g3g)|Beginer|
+|[**✅2-Computer Vision Tasks and Applications**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Computer%20Vision%20Tasks%20and%20Applications.md)|[1](https://drive.google.com/file/d/1DCR-0UllT5J0GNHrTlklsHtF1OCskV0V/view)[-2](https://drive.google.com/file/d/1hDHQfd5h9Jiauk8olHG6Jft0AbOUh36n/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=8070)|Beginer|
+|[**✅Best Free Resources to Computer Vision**](https://open.substack.com/pub/mushtaqmsit/p/top-10-free-resources-to-learn-computer?r=f2squ&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)|---|---|[Link](https://coursesteach.com/mod/page/view.php?id=10400&forceview=1)|Beginer|
+
+## 🔹Chapter2: - **Image As Function**
+| Topic Name/Tutorial | Video| Notbook |Extra Resources|
+|---|---|---|---|
+|[**✅1-Images as Functions Part 1?**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%202-Image%20As%20Function/%20Images%20as%20Functions%20.md)|[**1**](https://drive.google.com/file/d/1c6plHK4Yqg_ch8QiNTtfGuSZSK0mt3lf/view)[-2](https://www.youtube.com/watch?v=B31Rs_naPE0&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=4)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅2-Images as Functions Part 2?**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%202-Image%20As%20Function/%20Images%20as%20Functions%20.md) | [**1**](https://drive.google.com/file/d/1X5RS1-6JfZUmcyDvsP5KF1SR97CFzus2/view)[-2](https://www.youtube.com/watch?v=B31Rs_naPE0&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=4) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb) |
+| [**✅3-Define an Image as a Function (Quiz)**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%202-Image%20As%20Function/%20Images%20as%20Functions%20.md) |[**1**](https://drive.google.com/file/d/1FDmF_Gcl3wtvx6NyNuvl6KAiZlp7KD6Y/view)[**-2**](https://drive.google.com/file/d/1qiwSHYDHSp15_QhMdKuT2nBdhprLJNag/view)[-3](https://www.youtube.com/watch?v=B31Rs_naPE0&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=4) | [![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb) |
+|[**✅4-Color Planes and Color Image as a Function(Quiz)**](https://open.substack.com/pub/mushtaqmsit/p/understanding-rgb-channels-in-matlab?r=f2squ&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)|[**1**](https://drive.google.com/file/d/1351z7lTQfAqx3HEGvAGvtm_FVhaMPzK6/view)[**-2**](https://drive.google.com/file/d/1USR6tCVZKK5uN7TkKGduPsH8rVkTCMAY/view)[**-3**](https://drive.google.com/file/d/1qiwSHYDHSp15_QhMdKuT2nBdhprLJNag/view)[-4](https://www.youtube.com/watch?v=GsMxg9JVdtc&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=5)[-4](https://www.youtube.com/watch?v=fK6gYFJDGm0&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=8)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅5- Digital Images**](https://mushtaqmsit.substack.com/p/how-computers-see-images)|[**1**](https://drive.google.com/file/d/1bvwInP7sTDxJv6ou7myoIFZLen57tSv_/view)[**-2**](https://drive.google.com/file/d/1M70RJybxbFBjNjf-s_u33IEGZwETVzco/view)[-3](https://www.youtube.com/watch?v=vktPuYgN0tU&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=6)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[1](https://medium.com/@adityagupta041050/how-computers-see-the-world-a-beginners-guide-to-cnns-c847ab855104)|
+|[**✅6-Compute Image Size Quiz-s**](https://mushtaqmsit.substack.com/p/how-to-calculate-image-size-width)|[1](https://www.youtube.com/watch?v=Xp4Oeqs1jUU)[-2](https://www.youtube.com/watch?v=L4iIYtkZJks&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=16)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅7-Read image in Matlab and Python-S**](https://mushtaqmsit.substack.com/p/how-to-read-and-process-images-in)|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅8-Image Size and Data Type Quiz/Solution-S**](https://mushtaqmsit.substack.com/p/how-to-get-image-size-and-data-type)|[**1**](https://drive.google.com/file/d/1-zlCSlEvKsBPyuPpUUCio15KdedHG_lj/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅9-Crop an Image-s**](https://mushtaqmsit.substack.com/p/what-is-mean-by-crop-an-image)|[**1**](https://drive.google.com/file/d/1y_0Q6HXXHwbJi8bFXSjIRmUTliZ_QETg/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅10-Add 2 Images-s**](https://mushtaqmsit.substack.com/p/how-to-add-two-images-in-matlab-and)|[**1**](https://drive.google.com/file/d/1Yu5ZkkVHTm5LPErifK0AyqIAZlorljen/view)[**-2**](https://drive.google.com/file/d/1l6VCJK-gU9cQHvGtJKFj6G8x7xrWkMBx/view)[**-3**](https://drive.google.com/file/d/1-POxIAvqFL1rg3N8r_zQj2-SZz3Vbm-a/view)[-4](https://youtu.be/DBWmGBGxdQU?si=42cXokDZwRXS2APG)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅11-Multiply image by a scaler and Blend 2 Images⭐️**](https://mushtaqmsit.substack.com/p/mastering-scalar-multiplication-in)|[**1**](https://drive.google.com/file/d/1QKr5Vw3G1HfjyL3PgD1R6AuY8QU_XhSA/view?pli=1)[-2](https://drive.google.com/file/d/14bY1HdOaC5w4jLby2LwaawzmTwfzhSeB/view)[-3](https://drive.google.com/file/d/11W_RKLTU7XMZ1RHzBZYicBvCBCLxXhrg/view)[-3](https://www.youtube.com/watch?v=8IP4cip-UW4&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=11)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅12-Common Types of Noise⭐️**](https://mushtaqmsit.substack.com/p/understanding-image-noise-in-computer)|[**1**](https://drive.google.com/file/d/1BhYdBxwZZLRp144ozXJOVKSvVDRLUPs0/view)[-2](https://youtu.be/Ay8QY82Opws?si=Eb1Tp7cf-dbVfgmn)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅13-Image Difference⭐️**](https://mushtaqmsit.substack.com/p/image-difference-in-computer-vision)|[**1**](https://drive.google.com/file/d/1NgBBgdzHdmG9UPjFBr4HRYuwtJuSux2t/view)[-2](https://drive.google.com/file/d/1FBPEClURy0oNh-Nt23UmBO2hGwGn3sqw/view)[-3](https://drive.google.com/drive/folders/1q_lNYRTS2ggibGcrc6dEAS-SbRQYF4N2)[-4](https://youtu.be/wcOlQLaBvPI?si=0zMNQm-4lzSWi15O)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅14-Generate Gaussian Noise⭐️**](https://mushtaqmsit.substack.com/p/gaussian-noise-in-image-processing)|[**1**](https://drive.google.com/file/d/15ho2IRjIMlZ6dPslpwo9MGR6SumyM938/view)[-2](https://youtu.be/w1Jytpsb1_o?si=EODPxWcfuKPbezvC)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅15-Effect of Sigma on Gaussian Noise⭐️**](https://mushtaqmsit.substack.com/p/understanding-the-effect-of-sigma)|[**1**](https://drive.google.com/file/d/1SOL6VtxIT08__IBVEsOOrhqYg2xicy2Q/view?usp=sharing)[-2](https://drive.google.com/file/d/1e9wH3cny9Z1UzMgi6-vcmUIJ-mGnDhtx/view)[-3](https://drive.google.com/file/d/1ixofehPc8WprhjNOKqtGIVx4dyyAbqwv/view)[-4](https://youtu.be/uIjvNOK4_ks?si=TFFTAADFV0gZsoGl)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅16-Apply Gaussian Noise⭐️**](https://mushtaqmsit.substack.com/p/applying-gaussian-noise-to-images)|[**1**](https://drive.google.com/file/d/17-X3uDm-_bKEZCLWrh6dzywgrd9Mc6pc/view)[-2](https://drive.google.com/file/d/1HdiI6F0MVJ3OB3VkTiMDreTA_mccXweC/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅17-Displaying Images in Matlab and Python⭐️**](https://mushtaqmsit.substack.com/p/basic-image-operations-in-python)|[**1**](https://drive.google.com/file/d/1H06n5AKN-XKDAAPk2GRaloQdSnG8fTgq/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**✅Minin Project-🚦 Smart Surveillance Frame Analyzer**||[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AComputer%20Vision%20Projects/%F0%9F%9A%A6_Smart_Surveillance_Frame_Analyzer.ipynb)|
+
+
+## 🔹Chapter3: - **Filtering**
+| Topic Name/Tutorial | Video | NoteBook |Extra Resoruces
+|---|---|---|---|
+| [**✅1- What is Filtering?**](https://mushtaqmsit.substack.com/p/understanding-filters-in-computer) | [1](https://drive.google.com/file/d/1Dw9Iw2B7ag8bF8uz6jp1RfwuIsf5Cgsj/view?usp=sharing)[-2](https://youtu.be/tqAgX01SuDM?si=EwoDwiODYXliLlWk) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|---|
+| [**✅2- What is Gaussian Noise?**](https://mushtaqmsit.substack.com/p/gaussian-noise-in-computer-vision) | [1](https://drive.google.com/file/d/1K6OvG6Hchl_3kNRw7OBIV40GgbCK3mMM/view?usp=sharing)[-2](https://drive.google.com/file/d/1L4-pNTYyvvts9em7w3cNuBGmNCEHy1IZ/view?usp=sharing)[-3](https://youtu.be/36HfBSIkO2U?si=U3sGjkect8pKTD86) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅3-Averaging Assumptions**](https://mushtaqmsit.substack.com/p/mastering-weighted-moving-averages) | [1](https://drive.google.com/file/d/1-O6oVfb4pv4zCMuJ7CSSAiTXncVcCNsf/view?usp=sharing)[-2](https://drive.google.com/file/d/17zB1EhTfSWDcck1fGaPWFL8wenY6C4DL/view?usp=sharing)[-3](https://youtu.be/meNVla8GHA4?si=EPMx3y4PfxuqlGqY)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅4-Weighted Moving Average**](https://mushtaqmsit.substack.com/p/understanding-averaging-filters-in) | [1](https://drive.google.com/file/d/1-O6oVfb4pv4zCMuJ7CSSAiTXncVcCNsf/view)[-2](https://youtu.be/l0-D1YjKK2k?si=ZsKngKoLwxlUwWao)[-2](https://youtu.be/l0-D1YjKK2k?si=AqgBL9Lwdczrf48x)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅5-Moving Average In 2D**](https://coursesteach.com/mod/page/view.php?id=5131) | [1](https://drive.google.com/file/d/17zB1EhTfSWDcck1fGaPWFL8wenY6C4DL/view?usp=sharing)[-2](https://youtu.be/l0-D1YjKK2k?si=ZsKngKoLwxlUwWao)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [***✅4- Correlation Filtering?**](https://mushtaqmsit.substack.com/p/correlation-filtering-in-computer) | [1](https://drive.google.com/file/d/1kOOc3jmptZDQnTlxlsDrYfnB33gl0Ldb/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅5- Averaging Filter?**](https://mushtaqmsit.substack.com/p/understanding-averaging-filters-in) | [1](https://drive.google.com/file/d/1YjCaZ8bXkYSben2l3Qts3IOxbpY4ttcE/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅6- Gaussian Filter?**](https://mushtaqmsit.substack.com/p/gaussian-filters-in-computer-vision) | [1](https://drive.google.com/file/d/1RV_UK3USN7rQjiB3Eq1ZZnR8ujAgHJD6/view?usp=sharing)[-2](https://drive.google.com/file/d/1z7svvKJn87Lmj1BchAViLLJ44_YTqFlN/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅7- Gaussian Filter with Matlab and Python?**](https://mushtaqmsit.substack.com/p/how-to-apply-gaussian-filtering-in) | [1](https://drive.google.com/file/d/1DY8UFbByrBrdbE4sdmcZa8G-kK3s3Q31/view?usp=sharing)[-2](https://youtu.be/uIcKFUsJbUA?si=0PylTuig7kqExWlO)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**✅8- Remove Noise?(r)**](https://mushtaqmsit.substack.com/p/how-to-remove-image-noise-using-gaussian) | [1](https://drive.google.com/file/d/1fzGcwjrWgzc57etIPUsnX_34LciTG1vs/view?usp=sharing)[-2](https://drive.google.com/file/d/1DgS_rRdmpJCckziIn1fRi6h_b0kLfTgj/view?usp=sharing)[-3](https://youtu.be/NJDbKhIxvAE?si=UkNQCoMrbkl8NMF6)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**✅Minin Project-Motion Detection in Surveillance Footage using Frame Differencing and Gaussian Smoothing**||[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AComputer%20Vision%20Projects/%F0%9F%A7%91_%F0%9F%92%BC_Mini_Real_Life_Project_Motion_D%F0%9F%A7%91_%F0%9F%92%BC_Mini_Real_Life_Project_Motion_Detection_in_Surveillance_Footage_using_Frame_Differencing_and_Gaussian_Smoothingetection_in_Surveillance_Footage_using_Frame_Differencin.ipynb)|
+
+## 🔹Chapter4: - **Linearity and Convolution**
+| Topic Name/Tutorial | Video | NoteBook |
+|---|---|---|
+| [**🌐1- Introduction of linear intuition of filtering**](https://medium.com/@Coursesteach/computer-vision-part-28-introduction-of-linear-intuition-of-filtering-83b4269f6019) | [1](https://drive.google.com/file/d/1NRaqwkMiXd5oYWaBnm2BfgpQR3rSvjaj/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐2- Impulse Function and Response**](https://medium.com/@Coursesteach/computer-vision-part-29-impulse-function-and-response-2b52dfedc54f) | [1](https://drive.google.com/file/d/1MWTi1FkAdo93cV6MwLMI41Kqn0zxBvFf/view?usp=sharing) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐4- Filtering an Impulse Signal**](https://medium.com/@Coursesteach/computer-vision-part-29-impulse-function-and-response-2b52dfedc54f) | [1](https://drive.google.com/file/d/1KxMS0EEAgVO5SuNujypTUNEuu8qUcURE/view?usp=sharing) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐5- Correlation vs Convolution**](https://medium.com/@Coursesteach/computer-vision-part-30-correlation-vs-convolution-168e1b6851b5) | [1](https://drive.google.com/file/d/1PlCNOA0ElHvpu4NvXHGt0Zyp073Kr0NS/view?usp=sharing)[-2](https://www.youtube.com/watch?v=FbDWmT93nUs) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐5-Properties of Convolution**](https://medium.com/@Coursesteach/computer-vision-part-30-correlation-vs-convolution-168e1b6851b5) | [1](https://drive.google.com/file/d/1dCjqrkS6uGHMoVKvg1drtLPAxoZ8csIH/view?usp=sharing) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐6-Computational Complexity and Separability**](https://medium.com/@Coursesteach/computer-vision-part-31-computational-complexity-and-separability-fc8d78ee3321) | [1](https://drive.google.com/file/d/1o3_E3oHa0SFXb_7WPWwF_HZw7JO9SV9Z/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐7-Boundary Issues**](https://medium.com/@Coursesteach/computer-vision-part-31-computational-complexity-and-separability-fc8d78ee3321) | [1](https://drive.google.com/file/d/1iKZD68I6VGebQbVnVebMBf7B4VFA6Umh/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐8-Methods**](https://medium.com/@Coursesteach/computer-vision-part-31-computational-complexity-and-separability-fc8d78ee3321) | [1](https://drive.google.com/file/d/1PkQJ7FngkptaxdvvTgowX8hiPBTmzHk_/view?usp=sharing) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐9-Explore Edge Options**](https://medium.com/@Coursesteach/computer-vision-part-32-explore-edge-options-78aae07fe8c5) | [1](https://drive.google.com/file/d/1wZuQ-nlwxIZWWLEEJo4MU5gbcm8xoMxu/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐10-Practicing with Linear Filters**](https://medium.com/@Coursesteach/computer-vision-part-33-practicing-with-linear-filters-db29d31a728b) | [1](https://drive.google.com/file/d/1EJMb8LFnTG87Po0LyjwhRDMD_G8BbDYy/view)[-2](https://drive.google.com/file/d/1m6GsASVUDYn8akRdejupOmLlmZ94A43i/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐11-Different Kinds of Noise**](https://medium.com/@Coursesteach/computer-vision-part-34-different-kinds-of-noise-2e300d9e4174) | [1](https://drive.google.com/file/d/15zd1sPvVWY8lQlZWGPn9C0NWds5yMpT9/view)[-2](https://drive.google.com/file/d/1FLtZNGhdQLzjF2O-ZQLJxRPBnykSXDJ6/view)[-3](https://drive.google.com/file/d/1qxLwu4jroEZa9FsfyN5CEYI3XoMeX5TJ/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+
+##  🔹Chapter5: - **Filters as Templates**
+| Topic Name/Tutorial | Video | NoteBook |
+|---|---|---|
+| [**🌐1- Introduction of Filters as templates, 1D correlation and 2D Correlations**](https://medium.com/@Coursesteach/computer-vision-part-35-introduction-of-filters-as-templates-8a61c1b7a303) | [1](https://drive.google.com/file/d/1xun5nFgKESdTb2nrEQMP5ltjyt1EVpel/view)[-2](https://drive.google.com/file/d/1qaivyaKMS_8abNeu8-ubaOPByDQ1DiVf/view) [-3](https://drive.google.com/file/d/1mYyHLY97o_Ha6yn_DjxXv5HuGn7Pdesw/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐2- Find Tempalte ID**](https://medium.com/@Coursesteach/computer-vision-part-36-find-template-1d-2fc954eca1f7) | [1](https://drive.google.com/file/d/1qzeQF-suulO4a9zMWEDWkPRIfPDiftVZ/view)[-2](https://drive.google.com/file/d/1IFjqWMAfOHAjsj0y33NWQQYG24nYokMy/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐3- Template Matching⭐️**](https://medium.com/@Coursesteach/computer-vision-part-37-template-matching-848b423a84ad) | [1](https://drive.google.com/file/d/1SFFwv9u-ypL8GaYgo0BKQChRa2THKkmY/view)[-2](https://drive.google.com/file/d/1LlqdK1lCeXsjJGE84T8AS3vM59nLEOo6/view)[-3](https://drive.google.com/file/d/105OVSmotPZti1xwZqXGdlXwoaC-Rt2cr/view)[-4](https://drive.google.com/file/d/1dv1rIxwPC58qtz4OrML2tOXVow0eMuRD/view)[-5](https://drive.google.com/file/d/1WZi7cE3lvEAihNdqGF13rzFc8qg2xA5p/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+
+##  🔹Chapter6: - **Edge detection: Gradients**
+| Topic Name/Tutorial | Video | NoteBook |
+|---|---|---|
+| [**🌐1- Pattern Finding and Feature Detection**](https://medium.com/@Coursesteach/computer-vision-part-38-exploring-computer-vision-pattern-finding-and-feature-detection-ebd3b8d81353) | [1](https://drive.google.com/file/d/1Pgj5ejwo2sPEgWRkfTgA1YK9xj8KprsD/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐2- Understanding Edges in Images: Why They Matter in Visual Perception**](https://medium.com/@Coursesteach/computer-vision-part-39-understanding-edges-in-images-why-they-matter-in-visual-perception-773ee3ece9a5) | [1](https://drive.google.com/file/d/1zE73_T53xLgqUxXo3nw3NqJJndKiJ_W_/view)[-2](https://drive.google.com/file/d/1YkOa4DCmOJqE7qO_DTAy60YklTxVv-nj/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐3- Edge Detection⭐️**](https://medium.com/@Coursesteach/how-edge-detection-works-in-image-processing-step-by-step-explanation-computer-vision-part-40-49eecc06593a) | [1](https://drive.google.com/file/d/11_MgzHT5N-y_PaslRo27QvPAC1h5CNkf/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐4-Derivatives and Edges⭐️**](https://medium.com/@Coursesteach/finding-peaks-and-edges-the-power-of-derivatives-in-function-analysis-computer-vision-part-41-6ffa1eb3a5cb) | [1](https://drive.google.com/file/d/1Gj_0J21g4SooclT-TlxXuYT1I_o5RhtU/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐5-What is Gradients⭐️**](https://medium.com/@Coursesteach/understanding-differential-operators-and-gradients-in-images-computer-vision-part-42-d18ce2693148) | [1](https://drive.google.com/file/d/1tP-jDm498EXyKWs7NhUQmvzBBxJl7m_3/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐6-Finite Differences⭐️**](https://medium.com/@Coursesteach/discrete-gradients-explained-a-beginners-guide-to-finite-differences-in-computing-computer-d3dd67c8c444) | [1](https://drive.google.com/file/d/19HxBZ53B1Xe74kz43KRqfpocm9gNGVs1/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐7-Partial Derivatives of an Image⭐️**](https://medium.com/@Coursesteach/understanding-partial-derivatives-of-an-image-computer-vision-part-44-33ce203de23c) | [1](https://drive.google.com/file/d/1_e_GIFVSFb-4-Yxic164wBIw_Gsry4pM/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐8-The Discrete Gradient⭐️**](https://medium.com/@Coursesteach/what-are-discrete-gradients-and-why-balanced-operators-matte-computer-vision-part-45-4a46134259bb) | [1](https://drive.google.com/file/d/1TY6yKP9X6PF7Jh2mr1Pqs2cEmrbFVcOU/view)[-2](https://www.youtube.com/watch?v=lOEBsQodtEQ)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐9-Sobel Operator⭐️**](https://medium.com/@Coursesteach/understanding-the-sobel-operator-a-classic-edge-detection-technique-computer-vision-part-46-938faca6ad74) | [1](https://drive.google.com/file/d/1-hfJqthjbAIa_PhwpaNUqKK0uICfbfah/view)[-2](https://www.youtube.com/watch?v=uihBwtPIBxM)[-3](https://www.youtube.com/watch?v=Yz7h9L4gecQ)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐10-Well Known Gradients⭐️**](https://medium.com/@Coursesteach/understanding-the-sobel-operator-a-classic-edge-detection-technique-computer-vision-part-46-938faca6ad74) | [1](https://drive.google.com/file/d/10eyzaLcNMhZ7C4ZMMR9yXc86wHDcFYos/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐11-Gradients direction⭐️**](https://medium.com/@Coursesteach/computing-image-gradients-direction-matlab-python-techniques-for-edge-detection-595b0be8f471) | [1](https://drive.google.com/file/d/18iLgY1BeyTTjnaQbnxJzVvXm9w-JjTh0/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+| [**🌐12-But in the Real World⭐️**](https://medium.com/@Coursesteach/understanding-edge-detection-noise-and-derivatives-explained-computer-vision-p48-482bf2cfcd92) | [1](https://drive.google.com/file/d/1Ul0XDqYyzMWEpNgNIgRpZPXsnRsKLse-/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=whit)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|[**✅13-Feature Description**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%202-Image%20As%20Function/Feature%20Description.md)|[**1**](https://youtu.be/bFvSx-UEqIY?si=N9luUJIlK9GtrQmQ)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+
+##  🔹Chapter7: - **Edge detection: 2D operators**
+| Topic Name/Tutorial | Video | NoteBook |
+|---|---|---|
+|**🌐1- Introduction**| [1](https://drive.google.com/file/d/1uEKYbYERARDFaPyf_B9USjmJ51O2FKUc/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐2-Derivative of Gaussian Filter 2D**| [1](https://drive.google.com/file/d/1YeogWHkDpvYkcgtT_FU-YU-B2lkt7Xsc/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐3- Effect of Sigma on Derivatives**| [1](https://drive.google.com/file/d/1P72PPQaVJ_AgpiR69saOriU7L1x4BwJU/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐4-Canny Edge Operator P1 **| [1](https://drive.google.com/file/d/1vloOkCm0xaKojql0RXwZ9wjJ6FQwMo3f/viewJ_AgpiR69saOriU7L1x4BwJU/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐5-Canny Edge Operator P2**| [1](https://drive.google.com/file/d/1Zt1FG7FZv1LwBY0o_28fonHCDvrA28ww/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐6- For Your Eyes Only Demo**| [1](https://drive.google.com/file/d/1k7Lz_g5lC1bVs27jpfRkxabLA_fUVSAd/view)[-2](https://drive.google.com/file/d/1dZPrgk7_DrMvgAKpYaDUFDdmokrF-9jE/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐7-Canny Results**| [1](https://drive.google.com/file/d/1kxQoYDEc7l6MiigXjjvjDJAYxCWGOJE5/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐8-Single 2D Edge Detection Filter**| [1](https://drive.google.com/file/d/197iBxz3CNkGhSYUmCnCSlcqP7Q8osfUi/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+
+##  🔹Chapter8: - **L1 Hough transform: Lines**
+| Topic Name/Tutorial | Video | NoteBook |
+|---|---|---|
+|**🌐1- Introduction**| [1](https://drive.google.com/file/d/1ReFf1sLrgXGogfAEAX5uM0QZRv0MOEyH/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐2-Parametric Model**| [1](https://drive.google.com/file/d/1W4b4tFpzNz8z2Z8up5YqD6yBE3YWtguk/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐3-Line Fitting**| [1](https://drive.google.com/file/d/17IRoXWMSjrmsPSFpNM5b2kjo22YJ3d6f/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐4-Voting**| [1](https://drive.google.com/file/d/1yiUtV5ElVaYzahr-qdJDlEjDIIppItG4/view)[-2](https://www.youtube.com/watch?v=6yVMpaIoxIU)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐5-Hough Space**| [1](https://drive.google.com/file/d/18Oiw44jEOBDAQvgLqmf08UKitF5m849Y/view)[-2](https://www.youtube.com/watch?v=4zHbI-fFIlI)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐6-Polar Representation for Lines**| [1](https://drive.google.com/file/d/1Ch2hYB6vdrKa3yfHl3jDNour8hNGFoQu/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐7-Basic Hough Transform Algorithm**| [1](https://drive.google.com/file/d/1wrq9J5yCicGgumWu9iE9u7gaUJTjDuOJ/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐8-Complexity of the Hough Transform**| [1](https://drive.google.com/file/d/1iYZk9dMrnIpsJniPdmRRbxuQKe0TWkC2/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐9-Hough Example**| [1](https://drive.google.com/file/d/1Jkye2NVdFMkqSlsDChJxMhZth1-FPaOM/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐10-Hough Demo**| [1](https://drive.google.com/drive/u/0/home)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐11-Hough on a Real Image**| [1](https://drive.google.com/file/d/14RnCpqmJ4HCSsEpdyXH8r9cRtuMP0kbr/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐12-Impact of Noise on Hough**| [1](https://drive.google.com/file/d/1xzf-G3aLDSdVovthcGDIUyiYr4ZBR9Re/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐13-Extensions**| [1](https://drive.google.com/file/d/1Iuz1sSij3F_dYJY-0tzxsyIRazlV3mDp/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+|**🌐🧪 Mini Real-Life Project: Detecting Road Lane Markings in Real Images Using the Hough Transform**|-- |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|
+
+##  🔹Chapter9: - **L2 Hough transform: Circles**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|
+|---|---|---|---|---|
+|**🌐1-Understanding Hough Transform for Circle**| [1](https://drive.google.com/file/d/1TkLSkRGvsOY4-a-O5TRFIuR-wd0yNJrG/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|---|🟧 Intermediate|
+|**🌐2-Detecting Circles with Hough**| [1](https://drive.google.com/file/d/1QHWTIb3201ImNOAKk9dP0JAIlL0Y3sgH/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=7596&forceview=1)|🟧 Intermediate|
+|**🌐3-Hough Transform for Circles**| [1](https://drive.google.com/file/d/1P-E7dQ6rxepvIfRDOyceigwnQJXOrn8U/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=7596&forceview=1)|🟧 Intermediate|
+|**🌐4-Algorithm for Circles**| [1](https://drive.google.com/file/d/14bNPWmNqgAzIlzMG2kskUQvS4BSg6UGQ/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=7826&forceview=1)|🟧 Intermediate|
+|**🌐5-Voting Practical Tips**| [1](https://drive.google.com/file/d/1Dq1nHd_-swDIBz7BvTETfi1SIupPow8k/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=7827&forceview=1)|🟧 Intermediate|
+|**🌐6-Pros and Cons**| [1](https://drive.google.com/file/d/1a6BYRg2SZO8kGo4XREbW_M0CgZ6GzpR9/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=7828&forceview=1)|🟧 Intermediate|
+|**🌐Minin Projects-🎯 Detecting Road Traffic Signs (Circular Signs)**|---|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Link](https://coursesteach.com/mod/page/view.php?id=7828&forceview=1)|🟧 Intermediate|
+
+
+##  🔹Chapter10: - **L3 Generalized Hough transform**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-Introduction of Generalized Hough transform**| [1](https://drive.google.com/file/d/1Oa2B5s_GW150M1kj5hwfUiRLiRVlxrXv/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=7893&forceview=1)|🟧 Intermediate|
+|**🌐2-Generalized Hough Transform**| [1](https://drive.google.com/file/d/154DZKUbzivjog1UUNocSERcdjJPkUnPr/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8069&forceview=1)|🟧 Intermediate|[1](https://www.youtube.com/watch?v=_mGxmZWs9Zw)|
+|**🌐3-Generalized Hough Transform Example**| [1](https://drive.google.com/file/d/153r0SqR5EOFgfZMZy3fo70Y5HGmYaBB1/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Note](https://coursesteach.com/mod/page/view.php?id=8148&forceview=1)|🟧 Intermediate|[1](https://www.youtube.com/watch?v=_mGxmZWs9Zw)|
+|**🌐4-Generalized Hough Transform Algorithm**| [1](https://drive.google.com/file/d/15lLL-qB66mFOarrf6SgZTjC7ot9hfXHt/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Note](https://coursesteach.com/mod/page/view.php?id=8186&forceview=1)|🟧 Intermediate|[1](https://www.youtube.com/watch?v=_mGxmZWs9Zw)|
+|**🌐5-Application in Recognition**| [1](https://drive.google.com/file/d/1fXbyw6WH7NdDX1VbNUGNLMM6X7w1ztqN/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Note](https://coursesteach.com/mod/page/view.php?id=8238&forceview=1)|🟧 Intermediate|[1](https://www.youtube.com/watch?v=_mGxmZWs9Zw)|
+|[**🌐6-Training**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%2010%20L3%20Generalized%20Hough%20transform%20Edit%20section%20name/6%20-%20Training.md)| [1](https://drive.google.com/file/d/1QsLYm0pGQnG5rfTDh6L1pQNU9Gp1TtBD/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Note](https://coursesteach.com/mod/page/view.php?id=8239&forceview=1)|🟧 Intermediate|--|
+|[**🌐7-Application in Recognition**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%2010%20L3%20Generalized%20Hough%20transform%20Edit%20section%20name/6%20-%20Training.md)| [1](https://drive.google.com/file/d/1f6YK9JGeu686x4t6RWsWrCaQSRtXWnTq/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Note](https://coursesteach.com/mod/page/view.php?id=8277&forceview=1)|🟧 Intermediate|--|
+
+##  🔹Chapter11: - **L1 Fourier transform**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-Introduction of Frequency Analysis in Computer Vision**| [1](https://drive.google.com/drive/u/0/folders/1IHImxxbsy3yR6sTT5itZMLJercndIbzI)[-2](https://drive.google.com/file/d/1Td_P9CQ-MeMAf9LjX7LQ8kbxZJYvhs84/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐2-Dali**| [1](https://drive.google.com/file/d/1DmwyJZ_tFy0YB26W8NkW1FWnKpifybxg/view)[-2](https://drive.google.com/file/d/13zSpxHYZTgqwxwWgodqB2ThS-3MVzB5u/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8324&forceview=1)|--- |
+|**🌐3-Basis Sets**| [1](https://drive.google.com/file/d/1oi9FDXWH0clzWdL7to3xjVYMEw3Ufpgp/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8324&forceview=1)|--- |
+|**🌐4-Fourier**| [1](https://drive.google.com/file/d/1cvPWKWxE7vnHwU-KR_9HFfzYjWdixFRK/view)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8364&forceview=1)|--- |
+|**🌐5-A Sum of Sines**| [1](https://drive.google.com/file/d/1N8ExEmf3LvYSTF7dyPfbClox7L7XvEPu/view)[-2](https://www.youtube.com/watch?v=spUNpyF58BY)[-3](https://drive.google.com/file/d/1Ro2_NH1XJYN7NfxoSLKdJ066BUsPKhwl/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8412&forceview=1)|--- |
+|**🌐6-Time and Frequency**| [1](https://drive.google.com/file/d/1pe1zH7s14i1pvzIUdOGt7FhnjIrWC35S/view)[-2](https://www.youtube.com/watch?v=B6uCaGh2M7k&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=6)[-3](https://drive.google.com/file/d/1Ro2_NH1XJYN7NfxoSLKdJ066BUsPKhwl/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8413&forceview=1)|--- |
+|**🌐7-Fourier Transform**| [1](https://drive.google.com/file/d/16mxFLk2PuSaTiKg7t7Lh1_I0QGOZCyhh/view)[-2](https://www.youtube.com/watch?v=o5EawXpa9AQ&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=7)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8478&forceview=1)|--- |
+|**🌐8-Computing Fourier Transform**| [1](https://drive.google.com/file/d/1wg6qRYs0NMlPCx0qb_jmqpIdQY8JpaCF/view)[-2](https://www.youtube.com/watch?v=fbuoH-K8Alw&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=9)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8521)|--- |
+|**🌐9-Fourier Transform More Formally**| [1](https://drive.google.com/file/d/1hrQBxaqd7EYhFgbtKCteI49Ke1WO8rOC/view)[-2](https://www.youtube.com/watch?v=V-rmbE7H6mQ&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=10)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8521)|--- |
+|**🌐10-Frequency Spectra**| [1](https://drive.google.com/file/d/1VmwTSUzsKDdTPUdHEuapEg2sWCq-axIq/view)[-2](https://www.youtube.com/watch?v=J-NeLCMIUs0&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=13)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8596&forceview=1)|--- |
+|**🌐11-Limitations**| [1](https://drive.google.com/file/d/1Z6v4tcLWtBsM0XFWzEcOBFJJ5DwQZ2LR/view)[-2](https://www.youtube.com/watch?v=H-RoPMA2fY4&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=15)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8597&forceview=1)|--- |
+|**🌐12-Fourier Transform to Fourier Series**| [1](https://drive.google.com/file/d/17_EQOrd7r1BsTcG6N2UHTN3CyfVNuNBZ/view)[-2](https://www.youtube.com/watch?v=O60ro_1iISM&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=17)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8635&forceview=1)|--- |
+|**🌐13-2D**| [1](https://drive.google.com/file/d/1mbESpHVzINrboGB21yE6dRjn5ZUq5-V7/view?usp=sharing)[-2](https://www.youtube.com/watch?v=O60ro_1iISM&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=17)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8654&forceview=1)|--- |
+|**🌐14-Example**| [1](https://drive.google.com/file/d/1dEu_Am_CDScDmQ1SgZg40IYTSVX0bwN7/view)[-2](https://www.youtube.com/watch?v=9twGQinRlH4&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=20)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8698&forceview=1)|--- |
+
+##  🔹Chapter12: - **L2 Convolution in frequency domain**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-Introduction**| [1](https://drive.google.com/file/d/1BsZJJHSqYiBl5HgDBl-b79PK8ZNZ8TTB/view)[-2](https://drive.google.com/file/d/1Td_P9CQ-MeMAf9LjX7LQ8kbxZJYvhs84/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**🌐2-Fourier Transform and Convolution**| [1](https://drive.google.com/file/d/1ixZR4cxxqDETZqaGI8eF_4Tbk665u5QH/view)[-2](https://www.youtube.com/watch?v=pcAEgk6pDKw&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=23)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8769&forceview=1)|--- |
+|**🌐3-FFT**| [1](https://drive.google.com/file/d/1pfo1IKAIzi-YAYB8bQ9ILvfUuxUc1PdW/view?usp=sharing)[-2](https://www.youtube.com/watch?v=884oYZqKG7A&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=24)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8797&forceview=1)|--- |
+|**🌐4-Smoothing and Blurring**| [1](https://drive.google.com/file/d/1IbYiOO-4PhLCqVNHD9V8CURme1OQuYK9/view)[-2](https://www.youtube.com/watch?v=884oYZqKG7A&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=24)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8826&forceview=1)|--- |
+|**🌐5-2D Example**| [1](https://drive.google.com/file/d/1WMsAslA6h-O8Ci5hB4jpVl617xOYnV5n/view)[-2](https://www.youtube.com/watch?v=6HEcRwNmR3A&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=27)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8857&forceview=1)|--- |
+|**🌐6- Low and High Pass Filtering**| [1](https://drive.google.com/file/d/1OidchiLYxMfxLNav3mmZj_TDcKTU1HEd/view?usp=sharing)[-2](https://www.youtube.com/watch?v=aK5YhS1bDtU&list=PLLC7bmONapvCXtNan7HxLupTNdMmzsOzV&index=28)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8857&forceview=1)|--- |
+|**🌐7-Properties of Fourier Transform**| [1](https://drive.google.com/file/d/1ngY2r1sJzPwpkqCqu7BJ0tgsIu3FQFfF/view)[-2](https://youtu.be/6GeNyXedmTA?si=SUlnpYw8J3cFwMTD)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8903&forceview=1)|--- |
+|**🌐8-Fourier Pairs**| [1](https://drive.google.com/file/d/1ZANKGj8Uus6ePF5HEoy1R0Y9UDeNus5E/view)[-2](https://youtu.be/7ASwE6T1yE4?si=I_WqVnbKsDwOyu_O)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8927&forceview=1)|--- |
+
+##  🔹Chapter13: - **Aliasing**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-Introduction**| [1](https://drive.google.com/file/d/1-nf3-OH6NOwAJARbpQX8cGGUS4tAoI3c/view)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**🌐2-Fourier Transform Sampling Pairs**| [1](https://drive.google.com/file/d/1yN-OvJYE1NKJ4cnd_yiTKWQKaBTf-SEX/view)[-2](https://youtu.be/dChD4NvkK1c?si=OSMIRXEOcLq3TX7t)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8955)|--- |
+|**🌐3-Sampling and Reconstruction**| [1](https://drive.google.com/file/d/1mGB6aN-W7xY6U2O0zVJvlWV9Uy8ODRfg/view)[-2](https://youtu.be/KS8aGAcmkqQ?si=dPMK4h_uJjJldtzp)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=9021&forceview=1)|--- |
+|**🌐4-Sampling in Digital Audio**| [1](https://drive.google.com/file/d/1fn81yfkpDpdI7ZTXr-VqgqAQFb4unHqH/view?usp=sharing)[-2](https://youtu.be/DHCwMQ5YtGY?si=16mL2nTgGXhDNoYM)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=9177)|--- |
+|**🌐5-Undersampling**| [1](https://drive.google.com/file/d/1rIvPA2622w46Q8jKBSNgQ9Jlxu77AKPl/view?usp=sharing)[-2](https://youtu.be/OarrkRPOMu4?si=BI2WtaMR5_OPAd5M)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10554&forceview=1)|--- |
+|**🌐6-Aliasing**| [1](https://drive.google.com/file/d/1qlxoH34vO0tybO2rDIUp1LGQ4RhDtg3K/view?usp=sharing)[-2](https://youtu.be/pwsWez4LP_A?si=fQA1Xw2mtuLBqAKI)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10559&forceview=1)|--- |
+|**🌐7-Antialiasing**| [1](https://drive.google.com/file/d/1PuqDlF2vI35OD2-0lDS39r9K_obF_RfJ/view?usp=sharing)[-2](https://youtu.be/pwsWez4LP_A?si=fQA1Xw2mtuLBqAKI)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10566&forceview=1)|--- |
+|**🌐8-Impulse Train and Bed of Nails**| [1](https://drive.google.com/file/d/12EMdCyNDZHz4FjoVt2kyk2XWDkAjObOj/view?usp=sharing)[-2](https://youtu.be/uWqTkwkj-1o?si=9RfIm-cPESqzS6vg)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10570&forceview=1)|--- |
+|**🌐9-Sampling Low Frequency**| [1](https://drive.google.com/file/d/1DAo_sd_hdNeAK3w4wKDY_nvp-BMLvuiC/view?usp=sharing)[-2](https://youtu.be/rwibeGGeZJo?si=RlOaDaicDhJc7CK3)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10575&forceview=1)|--- |
+|**🌐10-Sampling High Frequency Signal**| [1](https://drive.google.com/file/d/1x29Fj2zZubNKJTmRiG52q4mlLxCPEMmY/view?usp=sharing)[-2](https://youtu.be/nkG2l7ZS1Tk?si=5SZWnR0NQ-caajfg)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10582&forceview=1)|--- |
+|**🌐11-Aliasing in Images**| [1](https://drive.google.com/file/d/17N92h4OwxA8y92IkRVVGIDBpPy1dM5mA/view?usp=sharing)[-2](https://youtu.be/7sbdAsmsEvY?si=kFjoQIDDpd9v4EQQ)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10585)|--- |
+|**🌐12-Campbell-Robson Contrast Sensitivity**| [1](https://drive.google.com/file/d/1UZIVIieE7Mt4zbjsRPFky1-9cdST2hqY/view?usp=sharing)[-2](https://youtu.be/URA1TrgTg1Y?si=aF2RC-uQXYRckzZP)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10589&forceview=1)|--- |
+|**🌐13-Image Compression**| [1](https://drive.google.com/file/d/1NSN9UfZZFg_far6heO6sDzWYThUEoDAT/view?usp=sharing)[-2](https://youtu.be/URA1TrgTg1Y?si=aF2RC-uQXYRckzZP)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10590&forceview=1)|--- |
+
+##  🔹Chapter14: - **Cameras and Images**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**✅1-Introduction**| [1](https://drive.google.com/file/d/1PxzIvvoVVg57HU0IzsjNMzxeB-jHoxB4/view?usp=sharing)[-2](https://youtu.be/L-hlKxHVZ8M?si=j1reQDiP7P3t8Z2y)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10593)|--- |
+|**✅2-Heliograph**| [1](https://drive.google.com/file/d/1Sj3gWYg4jK1EdqTxt5Wr4_joNymHtaiT/view?usp=sharing)[-2](https://youtu.be/L-hlKxHVZ8M?si=j1reQDiP7P3t8Z2y)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10594&forceview=1)|--- |
+|**✅3-Image Formation**| [1](https://drive.google.com/file/d/19xGLdEKS-FzduwCNoWAf4X2-CYVUAzCM/view?usp=sharing)[-2](https://youtu.be/9Clehk8b4TE?si=WkGMK8fVzKe00UPd)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10600)|--- |
+|**✅4-Aperture**| [1](https://drive.google.com/file/d/1kdIliTLDHfpKQo8juV-lByU3EWoHtELK/view?usp=sharing)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10602&forceview=1 )|--- |
+|**✅5-Lenses**| [1](https://drive.google.com/file/d/1Y5btrJCoLrCzt9dqjadrO0Si5KICGV-M/view?usp=sharing)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10613&forceview=1)|--- |
+|**🌐6-Thin lens**| [1](https://drive.google.com/file/d/1TdYTEXAVk335wypbziQtJXCJkh7YB4tq/view?usp=sharing)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**🌐7- Focus on a object Quiz**| [1](https://drive.google.com/file/d/1-nf3-OH6NOwAJARbpQX8cGGUS4tAoI3c/view)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|***✅8- Varying focus**| [1](https://drive.google.com/file/d/1-nf3-OH6NOwAJARbpQX8cGGUS4tAoI3c/view)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**✅9- Varying focus**| [1](https://drive.google.com/file/d/1ExeUIRWsMQtVSslJGqx0TB59utOY_edO/view?usp=sharing)[-2](https://coursesteach.com/mod/page/view.php?id=10618)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10619&forceview=1)|--- |
+|**✅10-depth of Field**| [1](https://drive.google.com/file/d/1ExeUIRWsMQtVSslJGqx0TB59utOY_edO/view?usp=drive_link)[-2](https://youtu.be/tLr9TdKQ93A?si=VMnihp0jGQgcnaSn)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**✅11-Field of View**| [1](https://drive.google.com/file/d/1-nf3-OH6NOwAJARbpQX8cGGUS4tAoI3c/view)[-2](https://youtu.be/JCmCH4Azua8?si=CCtgTvoZSacM5NmM)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**🌐12-Framed Quiz**| [1](https://drive.google.com/file/d/1-nf3-OH6NOwAJARbpQX8cGGUS4tAoI3c/view)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**✅13-zooming and moving are not the same**| [1](https://drive.google.com/file/d/1CE4_Hm_ASZynAptPHBJwYFSg65VWe92k/view?usp=sharing)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10625)|--- |
+|**✅14-Dolly zoom**| [1](https://drive.google.com/file/d/1XM7RTRS7dGpajaw9qfRXobBoc2dR3l0H/view?usp=sharing)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10626)|--- |
+|**✅15-Lenses are not perfect**| [1](https://drive.google.com/file/d/1JCFhtudL3HjuhuCgzlerUiyCzuV1icVX/view?usp=sharing)[-2](https://youtu.be/20qKeRkwO9w?si=3dB2sb2xf5vrDgC7)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10629&forceview=1)|--- |
+|**✅16- Lenses systems**| [1](https://drive.google.com/file/d/1StCh4AGf7WVVuhShm86dAG236EtXKSVw/view?usp=sharing)[-2](https://youtu.be/20qKeRkwO9w?si=3dB2sb2xf5vrDgC7)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8748&forceview=1)|--- |
+|**🌐17-Thin Lense**| [1](https://drive.google.com/file/d/1-nf3-OH6NOwAJARbpQX8cGGUS4tAoI3c/view)[-2](https://youtu.be/8KNqBFe9LhU?si=64bpmudMcxOW2ZTx)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10631)|--- |
+
+##  📚Chapter : 15-L2 Perspective imaging**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**✅1-Introduction**| [1](https://drive.google.com/file/d/1PxzIvvoVVg57HU0IzsjNMzxeB-jHoxB4/view?usp=sharing)[-2](https://youtu.be/L-hlKxHVZ8M?si=j1reQDiP7P3t8Z2y)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=10593)|--- |
+
+
+##  🔹Chapter: - **Feature Detection (Comming Soon)**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-SIFT feature detection**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-SURF feature detection**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-ORB feature detection**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+
+##  🔹Chapter: - **Deep Learning for Vision (Comming Soon)**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-convolutional neural networks**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-image classification**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-transfer learning**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+
+##  🔹Chapter: - **Object Detection(Comming Soon)**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-YOLO object detection**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-Faster R-CNN**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-SSD object detection**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+
+##  🔹Chapter: - **Image Segmentation(Comming Soon)**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-semantic segmentation**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-instance segmentation**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-U-Net neural network**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+|**🌐1-Mask R-CNN**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+
+
+
+##  🔹Chapter: - **Others topics**
+| Topic Name/Tutorial | Video | NoteBook |Note|Difficulty levels|Extra Resources|
+|---|---|---|---|---|---|
+|**🌐1-How LLMs Actually Understand Images**| [1](https://www.youtube.com/watch?v=PuodF4pq79g)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/hussain0048/Computer-Vision-/blob/main/Introduction_to_Computer_Vision.ipynb)|[Notes](https://coursesteach.com/mod/page/view.php?id=8297&forceview=1)|--- |
+
+
+</details>
+
+<details> 
+<summary> <h2>📕Course Title - 👁️ Course Title: Advance  Computer Vision </h2> </summary>
+
+#### YouTube Channels
+- **[CS 198-126: Modern Computer Vision Fall 2022 (UC Berkeley)](https://www.youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5)** - FREE
+#### Course
+- **[Computer Vision by huggingface](https://huggingface.co/learn/computer-vision-course/unit3/vision-transformers/vision-transformer-for-object-detection)** - FREE
+ 
+
+## 👁️ Chapter1: - **Vision Transformers**
+explore transformer architecture in the context of computer vision and learn how they compare to CNNs. Understand common vision transformers such as Swin, DETR, and CVT, along with techniques for transfer learning and fine-tuning.
+
+| Topic Name/Tutorial | Video | Code | Note|Extra Resoruces|
+|---|---|---|---|---|
+| [**1- Vision Transormers for image classification**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/Vision%20Transormers%20for%20image%20classification%20.md)| [1](https://youtu.be/A-rK1wV_1lc?si=yj243ZoCpYCybSDs)[-2](https://youtu.be/j3VNqtJUoz0?si=lyRXV6rVwZbviJAt) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+| [**2-Swin Transformer**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/2-Swin%20Transformer.md)| [1](https://youtu.be/hzUyPVE1KT0?si=ZBbeDYjLxs3LSQgn) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+| [**3-CvT: Convolutional Vision Transformer Architecture and Implementation**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/Convolutional%20Vision%20Transformer%20(CvT).md)| [1](https://youtu.be/XiaUEw_jFV0?si=ilPyO4iMXwwUhOlp)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+| [**4-Dilated Neighborhood Attention Transformer (DINAT)**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/Dilated%20Neighborhood%20Attention%20Transformer%20(DINAT).md)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)| [1](https://youtu.be/XiaUEw_jFV0?si=ilPyO4iMXwwUhOlp)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+| [**5-MobileViT v2**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/MobileViT%20v2.md)| [1](https://youtu.be/LVTo33CZwRs?si=QUNUAbdiipgqiyyb)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+| [**6-Fine-tuning Vision Transformers for Object Detection**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/Fine%20tune%20Vision%20Transformers%20for%20Object%20Detection.md)| [1](https://youtu.be/DvE9ogUF5Dg?si=PtQ34qH3oYj_5Jz7)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+| 7-DEtection TRansformer (DETR)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%20Vision%20Transformers/DEtection%20TRansformer%20(DETR).md)| [1](https://youtu.be/DvE9ogUF5Dg?si=PtQ34qH3oYj_5Jz7)|[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)](https://github.com/dr-mushtaq/Computer-Vision/blob/main/notebooks/Unit%203%20-%20Vision%20Transformers/transfer-learning-image-classification.ipynb)|---|---|
+
+
+## 👁️ Chapter2: - **Multimodal Models**
+understand the fusion of text and vision by exploring multimodal tasks like image-to-text and text-to-image. Study models such as CLIP and its relatives (GroupViT, BLIPM, Owl-VIT), and master transfer learning techniques for multimodal tasks.
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.goog) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter2: - **Generative Models**
+explore generative models, including GANs, VAEs, and diffusion models. Learn about their differences and applications in tasks such as text-to-image, image-to-image, and inpainting.
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter2: - **Video and Video Processing :**
+examine the characteristics of videos, the role of video processing, and the challenges compared to image processing. Explore temporal continuity, motion estimation, and practical applications in video processing.
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter3: - **3D Vision, Scene Rendering, and Reconstruction**
+delve into the complexities of three-dimensional vision, exploring concepts like Nerf and GQN for scene rendering and reconstruction. Understand the challenges and applications of 3D vision in computer vision, and how it provides an even more comprehensive view of spatial information..
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter4: - **Model Optimization**
+Explore the critical aspects of model optimization. Cover techniques such as model compression, deployment considerations, and the usage of tools and frameworks. Include topics like distillation, pruning, and TinyML for efficient model deployment
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+
+## 👁️ Chapter6: - **Synthetic Data Creation**
+discover the importance of synthetic data creation using deep generative models. Explore methods like point clouds and diffusion models and investigate major synthetic datasets and their applications in computer vision
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter7: - **Zero Shot Computer Vision**
+delve into the realm of zero-shot learning in computer vision, covering aspects of generalization, transfer learning, and its applications in tasks such as zero-shot recognition and image segmentation. Explore the relationship between zero-shot learning and transfer learning across various computer vision domains.
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter8: - ** Ethics and Biases in Computer Vision**
+ understand the ethical considerations specific to computer vision. Explore why ethics matter, how biases can infiltrate AI models, and the types of biases prevalent in these domains. Learn how to do bias evaluation and mitigation strategies, emphasizing responsible development and deployment of AI technologies..
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+## 👁️ Chapter9: - ** Outlook and Emerging Trends**
+ explore current trends and emerging architectures . Delve into innovative approaches like Retentive Network, Hiera, Hyena, I-JEPA, and Retention Vision Models.
+
+| Topic Name/Tutorial | Video | Code | Note|Difficulty|
+|---|---|---|---|---|
+| [**1- What is computer Vision**](https://github.com/dr-mushtaq/Computer-Vision/blob/main/%F0%9F%93%9AChapter%201-Introduction/Introduction%20of%20Computer%20Vision%20.md)| [1](https://drive.google.com/file/d/1Cb-Cz0dRwNZzAp5f2K5cVNNwBRo3hki4/view) |[![Colab icon](https://img.shields.io/badge/Colab-Open-blue.svg?logo=colab&logoColor=white)]
+
+</details>
+
+<details>
+<summary> <h2>📕 Computer Vision Resources </h2> </summary>
+
+##  🔹Chapter1: - **Free Courses**
+| Title/link| Description | Reading Status |
+|---|---|---|
+|[**✅1- Deep Learning for Computer Vision**](https://www.youtube.com/watch?v=0nqvO3AM2Vw&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index=3?fbclid=IwZXh0bgNhZW0CMTAAAR2J9tEPD3kPegVzCWQ0WkBYSS6go_0G0PjRSaNojiOjDG85ccS45lZGyBE_aem_Ack4D65TusReJ6ybfh6ZIy9MXZ6ezPKugIzvqWZO2HtMW1C4Y38SpzlpjSzB4pr4-X4tFDusPKaI4SeieXZKMIcn)|by Michigan Online,Youtube| Pending|
+|[**✅2- Introduction to Computer Vision**](https://www.udacity.com/enrollment/ud810)|by Michigan Online,Youtube, Basic of Computer Vision| Inprogress|
+|[**✅2- Introduction of Computer Science**](https://www.udacity.com/enrollment/ud810)|It is free course and it contain notes and video| Inprogress|
+|[**✅3-Community Computer Vision Course**](https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome)|It is free course huggingface and it contain notes and video| Pending|
+|[**✅4-Computer Vision Lane Detection Playlist**](https://www.youtube.com/watch?v=9CCs4stbwCo&list=PLCiTDJays9rWQkp_IuHOd15JXHyVaYQKE&index=1)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅5-Stanford CS231N Deep Learning for computer Vsion**](https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅6-The Ancient Secrets of Computer Vision by Joseph Redmon**](https://www.youtube.com/playlist?list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅7-The Ancient Secrets of Computer Vision by Joseph Redmon**](https://www.youtube.com/playlist?list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅8-Computer Vision with Embedded Machine Learning**](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning?irclickid=wHVwSVSvAxycRa02tazz-V1JUku1qMWWGQ0W2o0&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=3310965&utm_content=b2c&utm_campaignid=MLTUT&utm_term=14726_CR_1164545_#modules)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅9-CS 198-126: Modern Computer Vision Fall 2022 (UC Berkeley)**](https://www.youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅10-Computer Science courses with video lectures)**](https://github.com/Developer-Y/cs-video-courses/blob/master/README.md#computer-vision)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅11-CS231n: Deep Learning for Computer Vision**](https://cs231n.github.io/)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅12-Introduction to Computer Vision**](https://www.cs.cornell.edu/courses/cs5670/2025sp/lectures/)|Highly recommend for anyone working on self-driving projects, OpenCV practice, or just learning how CV pipelines are structured in real-world scenarios.|
+|[**✅13-Computer Vision Course by hugging face**](https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome)|we’ll cover everything from the basics to the latest advancements in computer vision.|[Github](https://github.com/huggingface/computer-vision-course/tree/main)|
+|[**✅14-Introduction to Computer Vision and Image Processing by coursera**](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv?irclickid=RIMwY4SGUxycUVyXND0fZwm4UkuSMZQ473AAU80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=3401872&utm_content=b2c&utm_campaignid=thecleverprogrammer&utm_term=14726_CR_1164545_)|we’ll cover everything from the basics to the latest advancements in computer vision.|[Github](https://github.com/huggingface/computer-vision-course/tree/main)|
+|[**✅15-Deep Learning for Computer Vision Specialization by coursera**](https://www.coursera.org/specializations/deep-learning-computer-vision?irclickid=RIMwY4SGUxycUVyXND0fZwm4UkuSMe1873AAU80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=3401872&utm_content=b2c&utm_campaignid=thecleverprogrammer&utm_term=14726_CR_1164545_)|we’ll cover everything from the basics to the latest advancements in computer vision.|[Github](https://github.com/huggingface/computer-vision-course/tree/main)|
+
+##  🔹Chapter2: - **Important Website**
+| Title/link| Description | Code |
+|---|---|---|
+|[**✅1- Road Map**](https://coggle.it/diagram/ZO5EUOut86Irr5hc/t/computer-vision-roadmap/760d909a1f28af1782645ff9b5af1dfd4481ce08bf258b4b54f868d7f3a1b8d5)|Road Map on Coggle|---|
+|[**✅2-visionbrick**](https://visionbrick.com/deeplearning/))|Road Map on Coggle|---|
+|[**✅3-computer Vision Study Plan**](https://pixelbank.dev/cv-study-plan))|Road Map on Coggle|---|
+|[**✅4-computer Vision with keras**](https://keras.io/examples/vision/image_classification_from_scratch/)|implement all Computer In keras|---|
+
+
+##  🔹Chapter2: - **Road Map**
+| Title/link| Description | Code |
+|---|---|---|
+|[**✅1- ai-learning-roadmaps**](https://github.com/bishwaghimire/ai-learning-roadmaps)|Road Map on Coggle|---|
+
+##  🔹Chapter3: - **Important Social medica Groups**
+| Title/link| Description | Code |
+|---|---|---|
+|[**✅1- Jeff Heaton**](https://www.youtube.com/@HeatonResearch/about)|It is Videos and github|---|
+|[**✅2- First Principles of Computer Vision**](https://www.youtube.com/@firstprinciplesofcomputerv3258/playlists)|It is Videos and github|---|
+|[**✅3-Yannic Kilcher**](https://www.youtube.com/@YannicKilcher)|It is Videos and github|---|
+|[**✅4-AI-ML-Roadmap-from-scratch**](https://github.com/aadi1011/AI-ML-Roadmap-from-scratch)|It is Videos and github|---|
+
+## 🔹Chapter4: - **Free Books**
+| Title/link| Description | Code |
+|---|---|---|
+|[**✅1- Foundations of Computer Vision**](https://visionbook.mit.edu/)|Antonio Torralba, Phillip Isola, and William Freeman|---|
+|[**✅2- Computer Vision: Algorithms and Applications, 2nd ed**](https://szeliski.org/Book/)|© 2022 Richard Szeliski, The University of Washington|---|
+|[**✅3- Foundations of Computer Vision**](https://visionbook.mit.edu/)|Antonio Torralba, Phillip Isola, and William Freeman|---|
+|[**✅4- Comprehensive Study Resource**](https://github.com/Rishabh-creator601/Books/tree/master)|A curated collection of books and references for Computer Vision, Machine Learning, Deep Learning, NLP, Python, and more.
+|[**✅5- AI-ML-Roadmap-from-scratch**](https://github.com/Rishabh-creator601/Books/tree/master)|A curated collection of books and references for Computer Vision, Machine Learning, Deep Learning, NLP, Python, and more.
+|[**✅6- Dive into Deep Learning**](https://d2l.ai/)|Antonio Torralba, Phillip Isola, and William Freeman|---|
+|[**✅7- 2026_KFCA_Computer_Vision**](https://github.com/KAUST-Academy/2026_KFCA_Computer_Vision/tree/master)|Antonio Torralba, Phillip Isola, and William Freeman|---|
+
+|---|
+
+## 🔹Chapter4: - **List of Computer Vision Model**
+| Category | Models | Notes |
+|---|---|---|
+| **Classification** | AlexNet, VGG, ResNet, DenseNet, EfficientNet, ViT 🔴🔵, Swin Transformer 🔴🔵, ConvNeXt 🔵 | Image classification (CNNs and Transformers) |
+| **Object Detection** | R-CNN, Fast R-CNN, Faster R-CNN, YOLO, SSD, RetinaNet, DETR 🔴🔵, Mask R-CNN | Detects objects with bounding boxes or masks |
+| **Segmentation** | FCN, U-Net, DeepLab, PSPNet, SegFormer 🔴🔵, SAM 🔴🔵 | Pixel-level understanding of images |
+| **Generative Models** | Autoencoders, VAE, GAN, DCGAN, CycleGAN, StyleGAN, BigGAN, Diffusion Models (DDPM 🔵), DALL·E 🔴🔵, Stable Diffusion 🔵 | Image synthesis & generation |
+| **3D & Video Models** | PointNet, NeRF 🔵, 3D CNNs | 3D object recognition, volumetric data & video understanding |
+
+---
+**Legend:**  
+- 🔴 Transformer-based  
+- 🔵 Introduced after 2020
+
+
+## 🔹Chapter4: - **Colab Notebooks**
+| Title/link| Description | Code |
+|---|---|---|
+|[**✅1- Top Computer Vision Google Colab Notebooks**](https://www.qblocks.cloud/creators/computer-vision-google-colab-notebooks)|Here is a list of the top google colab notebooks that use computer vision to solve a complex problem such as object detection, classification etc:|---|
+|[**✅2-roboflow/Notebooks**](https://github.com/roboflow/notebooks)|This repository offers a growing collection of computer vision tutorials. Learn to use SOTA models like YOLOv11, SAM 2, Florence-2, PaliGemma 2, and Qwen2.5-VL for tasks ranging from object detection, segmentation|---|
+|[**✅3-Machine Learning Notbook by google colab**](https://colab.research.google.com/github/ageron/handson-mlp/blob/main/index.ipynb#scrollTo=34_v1D3ttbDn)|This repository offers a growing collection of computer vision tutorials. Learn to use SOTA models like YOLOv11, SAM 2, Florence-2, PaliGemma 2, and Qwen2.5-VL for tasks ranging from object detection, segmentation|---|
+
+##  🔹Chapter5: - **Github Repository**
+| Title/link| Description | Status |
+|---|---|---|
+|[**✅1- Computer Science courses with video lectures**](https://github.com/Developer-Y/cs-video-courses?fbclid=IwZXh0bgNhZW0CMTAAAR2J9tEPD3kPegVzCWQ0WkBYSS6go_0G0PjRSaNojiOjDG85ccS45lZGyBE_aem_Ack4D65TusReJ6ybfh6ZIy9MXZ6ezPKugIzvqWZO2HtMW1C4Y38SpzlpjSzB4pr4-X4tFDusPKaI4SeieXZKMIcn)|It is Videos and github| Pending|
+|[**✅2-courses & resources**](https://github.com/SkalskiP/courses)|It is course of all AI domain| Pending|
+|[**✅3-AIBauchi-Computer-Vision-Bootcamp**](https://github.com/AIBauchi/AIBauchi-Computer-Vision-Bootcamp/tree/main)|It is course of all AI domain| Inprogress|
+|[**✅4-Awesome Computer Vision**](https://github.com/jbhuang0604/awesome-computer-vision?tab=readme-ov-file#courses)|It is course of all AI domain| Inprogress|
+|[**✅5-Community-led Computer Vision Community Course**](https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome)|This is the repository for a community-led course on Computer Vision. Over 60 contributors from the Hugging Face| Inprogress|
+|[Computer Vision](https://github.com/the-akira/Computer-Science-Resources/blob/master/db/computer_vision.md)|---|---|
+|[Computer Vision Tutorial Series M1C1](https://pub.towardsai.net/computer-vision-tutorial-series-m1c1-535c27cd36ca)|---|---|
+|[Learning-based 3D Vision](https://github.com/dongjiacheng06/Learning-based-3D-Vision)|---|---|
+|[Artificial-Intelligence-Courses by KAUST Academy](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses)|---|---|
+
+## 👁️ Chapter 1: - **🔍 Tools, Frameworks & Platforms**
+
+Understanding all the tools, frameworks, architectures, and ecosystems around Computer Vision can sometimes feel harder than understanding the models themselves.  
+Below are the ones I’ve explored and used enough to feel confident recommending.  
+Of course, these won’t solve every use case, and I’m not listing every supporting technology you might need to build real-world AI systems, but it’s a solid starting point.
+
+| Tool / Framework | Description | Resources |
+|---|---|---|
+| [**✅1- RBOT (ROI-Based Object Tracking)**]() | An **alternative to YOLO for custom object tracking**. Unlike traditional deep learning models that require thousands of images per object, RBOT aims to learn from **50–100 samples** and track objects without bounding box detection. | --- |
+| [**✅2- skimage (scikit-image)**](https://scikit-image.org/) | Open-source Python library for **image processing and computer vision**, built on NumPy/SciPy. | [Docs](https://scikit-image.org/docs/stable/) |
+| [**✅3- OpenCV**](https://github.com/opencv/opencv) | The most widely used library for **image/video processing**, feature extraction, filtering, and classical CV tasks. | [Docs](https://docs.opencv.org/) |
+| [**✅4- Ultralytics YOLO**](https://github.com/ultralytics/ultralytics) | State-of-the-art **object detection and segmentation framework**, supporting YOLOv5–YOLOv8. | [Docs](https://docs.ultralytics.com/) |
+| [**✅5- Detectron2**](https://github.com/facebookresearch/detectron2) | Facebook AI’s **modular framework for object detection, segmentation, and keypoint detection**. | [Docs](https://detectron2.readthedocs.io/) |
+| [**✅6- TensorFlow**](https://www.tensorflow.org/) | Google’s end-to-end **machine learning and deep learning framework** with strong support for production and deployment. | [Docs](https://www.tensorflow.org/learn) |
+| [**✅7- PyTorch**](https://pytorch.org/) | Widely used **deep learning framework** from Meta, popular in research and CV applications due to its flexibility and ease of use. | [Docs](https://pytorch.org/tutorials/) |
+| [**✅8- Keras**](https://keras.io/) | High-level API for **building and training neural networks** quickly, running on top of TensorFlow. | [Docs](https://keras.io/getting_started/) |
+| [**✅9- FastAI**](https://github.com/fastai/fastai) | PyTorch-based library for **rapid prototyping of CV and NLP models**, with high-level abstractions. | [Docs](https://docs.fast.ai/) |
+| [**✅10- MMDetection**](https://github.com/open-mmlab/mmdetection) | OpenMMLab’s **powerful toolbox for object detection and instance segmentation**, supporting hundreds of models. | [Docs](https://mmdetection.readthedocs.io/) |
+| [**✅11- MONAI**](https://monai.io/) | PyTorch-based **framework for medical imaging**, specialized for segmentation, classification, and 3D imaging. | [Docs](https://docs.monai.io/) |
+| [**✅12- Albumentations**](https://albumentations.ai/) | Fast and flexible library for **image augmentations**, widely used in CV pipelines. | [Docs](https://albumentations.ai/docs/) |
+| [**✅13- DVC (Data Version Control)**](https://dvc.org/) | A tool for **versioning datasets and ML experiments**, ensuring reproducibility in CV research. | [Docs](https://dvc.org/doc) |
+
+
+##  👁️ Chapter1: - **Importatant tutorial**
+| Title/link| Description | Status |
+|---|---|---|
+|[**✅1- Multimodal Data Analysis with Deep Learning**](https://rackenzik.com/multimodal-data-analysis-with-deep-learning/)|It is Videos and github|pending|
+|[**✅2-How Vision-Language Models (VLMs) Actually Work**](https://amanxai.com/2026/08/05/build-a-vision-ai-app-with-python/?fbclid=IwY2xjawTg-CNwZG9mAWV4dG4DYWVtAjExAHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4y-Xm9u85TvEYFFpPQoCf7fZRs68Pjq6oPKtpfOyQ_zyHModb6CChWXxFV9g_aem_M-EKQTLHyhzfCshtifOs8g)|It is Videos and github|pending|
+</details>
+
+##  💻 Workflow:
+
+- Fork the repository
+
+- Clone your forked repository using terminal or gitbash.
+
+- Make changes to the cloned repository
+
+- Add, Commit and Push
+
+- Then in Github, in your cloned repository find the option to make a pull request 
+
+> print("Start contributing for Computer Vision")
+>
+##  ⚙️ Things to Note
+
+* Anybody interested in learning and contributing to computer Vision repository
+* There are no hard prerequisites other than a dedication to learning
+* Some experience with the following will be beneficial:,C++ Programming, Basic of Computer 
+* You can only work on issues that have been assigned to you.
+* If you want to contribute the algorithm, it's preferrable that you create a new issue before making a PR and link your PR to that issue.
+* If you have modified/added code work, make sure the code compiles before submitting.
+* Strictly use snake_case (underscore_separated) in your file_name and push it in correct folder.
+* Do not update the **[README.md](https://github.com/prathimacode-hub/ML-ProjectKart/blob/main/README.md).**
+
+ ## 🔍 Explore more
+Explore cutting-edge tools and Python libraries, access insightful slides and source code, and tap into a wealth of free online courses from top universities and organizations. Connect with like-minded individuals on Reddit, Facebook, and beyond, and stay updated with our YouTube channel and GitHub repository. Don’t wait — enroll now and unleash your Computer Vision  potential!”
+
+* [Computer Vision Basic](https://coursesteach.com/enrol/index.php?id=133)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+All source code and educational material in this repository are released under the MIT License.
+   
+## **✨Top Contributors**
+We would love your help in making this repository even better! If you know of an amazing Computer Vision course or you know intrested Computer Vision related tutorial/Video  that isn't listed here, or if you have any suggestions for improvement in any course content, feel free to open an issue or submit a course contribution request.
+
+                       Together, let's make this the best AI learning hub website! 🚀
+
+Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀
+
+<a href="https://github.com/dr-mushtaq/Computer-Vision/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hussain0048/Computer-Vision" />
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
