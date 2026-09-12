@@ -1,5 +1,6 @@
-# Environments
+``# Environments
 course_materials/
+.matplotlib/
 .env
 .venv/
 venv/
