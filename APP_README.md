@@ -182,24 +182,14 @@ Currently, configurations are adjusted in real-time via the Streamlit UI Sidebar
 - Object tracking and bounding box persistence across video frames
 - Batch image processing endpoints
 
-## 📚 Educational Material & Attribution
-
-The `Computer-Vision-main` context was authored originally by Dr-Mushtaq Hussain.
-- The interactive **VisionLab** application (`src/`) was independently developed by Saqib Ahmad Bhat using the original educational project strictly as context and inspiration.
-- Large educational datasets, copyrighted books, and legacy course materials from the original repository are intentionally omitted from this standalone software repository.
-- Applicable original license terms are retained in `LICENSE`.
-
-## 📄 License
-
-1. **VisionLab Application:** 
-   Original application code in `src/` and `tests/` is open-sourced under the MIT License.
-   *Copyright (c) 2026 Saqib Ahmad Bhat*
-2. **Original Project Inheritance:** 
-   Authored by Dr-Mushtaq Hussain under MIT License.
-3. **Third-Party Dependencies:** 
-   OpenCV (Apache 2), Streamlit (Apache 2), PyTorch.
-
 ## 👨‍💻 Author
 
-**Saqib Ahmad Bhat**  
+**Saqib Ahmad Bhat**
+
 GitHub: [https://github.com/SaqibAhmadBhat](https://github.com/SaqibAhmadBhat)
+
+VisionLab is developed and maintained by Saqib Ahmad Bhat.
+
+## 💡 Acknowledgments
+
+This project was developed independently as a practical computer vision application. Its design and learning direction were informed by publicly available computer vision concepts, documentation, and educational resources.

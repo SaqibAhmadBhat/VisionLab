@@ -165,17 +165,14 @@ visionlab/
 - Object tracking and bounding box persistence across video frames
 - Batch image processing endpoints
 
-## 📚 Attribution & Licensing
-
-- **VisionLab** is the application developed in this repository.
-- The project was developed using an existing MIT-licensed computer vision educational repository as contextual/reference material.
-- The original educational material is **NOT** included in this published repository.
-- The original upstream author of the educational project is **Dr-Mushtaq Hussain**.
-- The original MIT license and attribution are retained in `LICENSE`.
-- The VisionLab application code in `src/` and its tests represent the new application work in this repository.
-- Third-party dependencies retain their own licenses.
-
 ## 👨‍💻 Author
 
 **Saqib Ahmad Bhat**
+
 GitHub: [https://github.com/SaqibAhmadBhat](https://github.com/SaqibAhmadBhat)
+
+VisionLab is developed and maintained by Saqib Ahmad Bhat.
+
+## 💡 Acknowledgments
+
+This project was developed independently as a practical computer vision application. Its design and learning direction were informed by publicly available computer vision concepts, documentation, and educational resources.
