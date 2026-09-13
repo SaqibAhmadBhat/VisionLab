@@ -1,9 +1,6 @@
 """
-VisionLab - Interactive Computer Vision Studio
+VisionLab — Interactive Computer Vision Studio
+
+Core modules for image processing, detection, video analysis,
+visualization, and optional AI classification.
 """
-from .image_processing import *
-from .detection import *
-from .visualization import *
-from .video_processing import *
-from .utils import *
-from .ai_tools import *

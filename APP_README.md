@@ -1,186 +1,100 @@
-# VisionLab — Interactive Computer Vision Studio
+# VisionLab — Application Documentation
 
-![Python](https://img.shields.io/badge/python-3.11-blue.svg)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?logo=opencv&logoColor=white)
-![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B.svg?logo=streamlit&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+## Overview
 
-VisionLab is an interactive computer vision studio built with Python, OpenCV, NumPy, Pillow, and Streamlit.
+VisionLab is an interactive computer vision studio. It provides six workspaces for exploring classical image processing, edge detection, feature analysis, face detection, video processing, and AI-powered image classification.
 
-It provides a practical workspace for uploading images and videos, applying computer-vision algorithms, adjusting parameters interactively, visualizing results, detecting shapes and features, and experimenting with AI-powered visual analysis.
+The application uses Streamlit as the web interface and OpenCV as the core processing engine. All processing modules are framework-independent and can be reused outside of the Streamlit context.
 
-The application is designed to make computer vision techniques accessible through an interactive interface while maintaining a modular Python architecture suitable for further development and experimentation.
-
-## ✨ Features
+## Workspaces
 
 ### 🖼 Image Studio
-- Image upload and live rendering
-- Image information metadata
-- Grayscale conversion
-- Brightness adjustment
-- Contrast adjustment
-- Resize to exact dimensions
-- Rotation
-- Sharpening
+Upload an image and apply basic adjustments:
+- **Grayscale** — Convert to single-channel grayscale
+- **Brightness & Contrast** — Adjust using weighted addition
+- **Rotation** — Rotate by any angle around the center
+- **Sharpening** — Apply a 3×3 sharpening kernel
+- **Histogram** — View pixel intensity distribution
 
-### 🔍 Image Processing
-- Gaussian blur (variable kernel)
-- Median blur
-- Bilateral filtering
-- Canny edge detection
-- Sobel edge detection
-- Laplacian edge detection
+### 🔧 Image Processing
+Apply image processing algorithms organized by category:
 
-### 🎯 Thresholding
-- Binary threshold
-- Adaptive threshold
-- Otsu threshold
+**Blur & Smoothing:**
+- Gaussian Blur (adjustable kernel size)
+- Median Blur (good for salt-and-pepper noise)
+- Bilateral Filter (edge-preserving smoothing)
 
-### 🧬 Morphological Operations
-- Erosion
-- Dilation
-- Opening
-- Closing
+**Thresholding:**
+- Binary Threshold (manual threshold value)
+- Adaptive Threshold (local neighborhood-based)
+- Otsu Threshold (automatic optimal threshold)
 
-### 📐 Feature & Shape Detection
-- Contour detection & drawing
-- Geometric shape detection (Triangle, Square, Rectangle, Pentagon, Circle)
-- Hough line detection
-- Hough circle detection
+**Morphological Operations:**
+- Erosion, Dilation, Opening, Closing
+- Adjustable kernel size and iterations
 
-### 🤖 Object Detection
-- Lightweight Face Detection using OpenCV Haar Cascades
-- Detects bounding boxes around frontal faces with adjustable scale factor and minimum neighbors.
-- *Zero additional dependencies required.*
+### 📐 Edge & Feature Analysis
+- **Canny Edge Detection** — Dual-threshold edge detector
+- **Sobel Edge Detection** — Gradient-based edge detection
+- **Laplacian Edge Detection** — Second-derivative edge detection
+- **Contour Analysis** — Find and measure all contours (area, perimeter, bounding box)
+- **Shape Detection** — Classify contours as Triangle, Square, Rectangle, Pentagon, or Circle using polygon approximation (heuristic, not AI)
+- **Hough Lines** — Detect line segments using probabilistic Hough transform
+- **Hough Circles** — Detect circles using gradient-based Hough transform
+
+### 👤 Face Detection
+Uses OpenCV Haar Cascade classifier for frontal face detection.
+- Adjustable scale factor and minimum neighbors
+- Cascade is cached for performance
+- This is a classical computer vision method, not deep learning
 
 ### 🎥 Video Lab
-- Video upload (MP4, AVI, MOV)
-- Extracts preview frames (up to 10 frames)
-- Allows applying quick filters (Grayscale, Edge detection) to extracted frames.
+- Upload MP4, AVI, or MOV files
+- View video metadata (resolution, FPS, frame count, duration, codec)
+- Generate a preview of 6 evenly-spaced frames
+- Apply Grayscale or Canny Edge to preview frames
+- Process the entire video frame-by-frame and download the result
+- Progress bar shows processing status
 
 ### 🧠 AI Vision
-- Uses **MobileNetV3 Small** (via PyTorch/Torchvision) for lightweight Image Classification.
-- **Local Requirements:** Requires local PyTorch installation (`pip install torch torchvision`). 
-- **Limitations:** The application gracefully degrades if Torch is absent, keeping the core OpenCV logic functional without requiring huge ML dependencies on standard installations.
+- Uses MobileNetV3 Small for ImageNet classification
+- Returns top-5 predictions with confidence scores
+- Requires PyTorch and torchvision (`pip install torch torchvision`)
+- Model is cached after first load
+- Application works without PyTorch; AI features are optional
 
-## 🖥 Application Overview
-**Upload** → **Select Vision Tool** → **Adjust Parameters** → **Process** → **Visualize** → **Download**
-
-## 🧰 Tech Stack
-- Python 3.11
-- OpenCV (`opencv-python-headless`)
-- NumPy
-- Pillow
-- Matplotlib
-- Streamlit
-- PyTorch & Torchvision (Optional for AI)
-
-## 📁 Project Structure
+## Architecture
 
 ```text
-visionlab/
-├── APP_README.md            # VisionLab application documentation
-├── requirements.txt         # VisionLab dependencies
-├── src/
-│   └── cv_playground/       # Application source
-│       ├── __init__.py
-│       ├── app.py           # Streamlit entry point
-│       ├── image_processing.py
-│       ├── video_processing.py
-│       ├── detection.py
-│       ├── visualization.py
-│       ├── utils.py
-│       └── ai_tools.py
-├── tests/                   # Pytest unit tests
-├── .github/
-│   └── workflows/           # CI Testing Pipeline
-├── .gitignore               # Ignored environments and caches
-└── LICENSE                  # Original upstream MIT License
+app.py (Streamlit)
+  ├── Caching layer (@st.cache_resource)
+  ├── Workspace functions (one per section)
+  └── UI rendering helpers
+      ↓
+Processing modules (no Streamlit dependency):
+  ├── image_processing.py — OpenCV wrappers for blur, edge, threshold, morph
+  ├── detection.py — Hough transforms, contours, shapes, Haar faces
+  ├── video_processing.py — VideoCapture/VideoWriter pipelines
+  ├── ai_tools.py — MobileNetV3 inference
+  ├── visualization.py — Matplotlib histogram generation
+  └── utils.py — Image I/O, validation, encoding
 ```
 
-## 🚀 Installation
+## Running Locally
 
 ```bash
-# 1. Create a Python 3.11 virtual environment
 python3.11 -m venv venv311
-
-# 2. Activate (macOS/Linux)
 source venv311/bin/activate
-# (Windows)
-# venv311\Scripts\activate
-
-# 3. Install core dependencies
 pip install -r requirements.txt
-
-# (Optional) Install AI dependencies
-# pip install torch torchvision
-```
-
-## ▶️ Running VisionLab
-
-```bash
 streamlit run src/cv_playground/app.py
 ```
-Open `http://localhost:8501` in your browser.
 
-## 🧪 Testing
+## Testing
 
-Run the test suite using `pytest`:
 ```bash
 pip install pytest
-PYTHONPATH=. pytest tests/
+PYTHONPATH=. pytest tests/ -v
 ```
-
-## 📸 Screenshots
-
-*(To be added)*
-See `docs/screenshots/` for upcoming interface snapshots:
-1. Home dashboard
-2. Image processing
-3. Edge detection
-4. Shape detection
-5. Object detection
-6. Video processing
-7. AI Vision
-
-## 🧠 How It Works
-
-```text
-User Interface (Streamlit sidebar controls)
-      ↓
-Streamlit Application (Routing in app.py)
-      ↓
-Processing Layer (Modular OpenCV wrappers)
-      ↓
-OpenCV / AI Models (Execute matrix operations)
-      ↓
-Visualization (Matplotlib histograms & Pillow overlays)
-      ↓
-Export (In-memory buffers for download)
-```
-
-## 🏗 Architecture
-Functionality is separated into strictly typed modules:
-- `image_processing.py`: Core pixel-level mathematical manipulations (Blur, edges, morphology).
-- `detection.py`: Search-based geometric algorithms (Hough transforms, Contours, Haar Cascades).
-- `utils.py`: Safe IO operations and buffer decoding.
-This structure ensures the application can scale into a larger API/backend without being tied to Streamlit.
-
-## ⚙️ Configuration
-Currently, configurations are adjusted in real-time via the Streamlit UI Sidebar. Limits on video frame parsing are defined internally within `video_processing.py` to prevent browser timeouts.
-
-## ⚠️ Limitations
-- **Processing speed:** Python loop bottlenecks exist on high-resolution video streams.
-- **Webcam support:** Browser constraints restrict `st.camera_input` strictly to TLS/HTTPS or localhost.
-- **Video limits:** Extracts a maximum of 10 preview frames to prevent memory overflow in Streamlit.
-- **AI Models:** MobileNet classification lacks advanced bounding-box object detection provided by heavier models like YOLO.
-
-## 🔮 Future Improvements
-- Real-time webcam processing (via `streamlit-webrtc`)
-- Additional lightweight ONNX detection models (YOLOv8 Nano)
-- Object tracking and bounding box persistence across video frames
-- Batch image processing endpoints
 
 ## 👨‍💻 Author
 

@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 from typing import Tuple, List, Optional
-import streamlit as st
 
 try:
     import torch
@@ -12,9 +11,13 @@ try:
 except ImportError:
     TORCH_AVAILABLE = False
 
-@st.cache_resource
+
 def load_ai_model():
-    """Load and cache the PyTorch MobileNetV3 model."""
+    """Load the PyTorch MobileNetV3 Small model.
+
+    Returns:
+        Tuple of (model, weights) or (None, None) if unavailable.
+    """
     if not TORCH_AVAILABLE:
         return None, None
     try:
@@ -22,38 +25,63 @@ def load_ai_model():
         model = torchvision.models.mobilenet_v3_small(weights=weights)
         model.eval()
         return model, weights
-    except Exception as e:
+    except Exception:
         return None, None
 
-def get_ai_intelligence(image: np.ndarray) -> Tuple[bool, str, List[Tuple[str, float]]]:
-    """
-    Optional AI feature using torchvision's MobileNetV3 Small.
-    Returns: (success_bool, message, list_of_predictions)
+
+def get_ai_intelligence(image: np.ndarray,
+                        model=None,
+                        weights=None,
+                        top_k: int = 5) -> Tuple[bool, str, List[Tuple[str, float]]]:
+    """Run image classification using MobileNetV3 Small.
+
+    This is an optional feature requiring PyTorch and torchvision.
+    The model classifies images into ImageNet categories.
+
+    Args:
+        image: Input image as numpy array (RGB).
+        model: Pre-loaded model (for caching). If None, loads fresh.
+        weights: Pre-loaded weights. If None, loads fresh.
+        top_k: Number of top predictions to return.
+
+    Returns:
+        Tuple of (success, message, list of (category, confidence) tuples).
     """
     if not TORCH_AVAILABLE:
-        return False, "PyTorch and Torchvision are not installed. Please install them to use AI Features: pip install torch torchvision", []
+        return (False,
+                "PyTorch and torchvision are not installed. "
+                "Install with: pip install torch torchvision",
+                [])
 
-    model, weights = load_ai_model()
+    if model is None or weights is None:
+        model, weights = load_ai_model()
     if model is None:
-        return False, "Failed to load the AI model. Ensure dependencies are correct.", []
+        return (False,
+                "Failed to load the AI model. "
+                "Ensure torch and torchvision are correctly installed.",
+                [])
 
     try:
-        # Preprocess image
         preprocess = weights.transforms()
-        if len(image.shape) == 2:
-            image = cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
 
-        pil_img = Image.fromarray(image)
+        img = image.copy()
+        if len(img.shape) == 2:
+            img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
+
+        pil_img = Image.fromarray(img)
         batch = preprocess(pil_img).unsqueeze(0)
 
         with torch.no_grad():
             prediction = model(batch).squeeze(0).softmax(0)
 
-        class_id = prediction.argmax().item()
-        score = prediction[class_id].item()
-        category_name = weights.meta["categories"][class_id]
+        categories = weights.meta["categories"]
 
-        return True, "Analysis Complete", [(category_name, score)]
+        top_values, top_indices = prediction.topk(min(top_k, len(categories)))
+        results = []
+        for val, idx in zip(top_values, top_indices):
+            results.append((categories[idx.item()], val.item()))
+
+        return True, "Classification complete", results
 
     except Exception as e:
-        return False, f"Failed to run AI model: {str(e)}", []
+        return False, f"Classification failed: {str(e)}", []
